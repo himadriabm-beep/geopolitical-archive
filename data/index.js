@@ -11,14 +11,16 @@
    --------------------------------------------------------------- */
 
 import { security } from './security.js';
+import { economic } from './economic.js';
 import { chokepoints } from './chokepoints.js';
 
 export const sections = [
   security,
+  economic,
   chokepoints
 ];
 
 export const meta = {
-  version: '4.1',
+  version: '4.2',
   updated: '13 Sep 2026'
 };
