@@ -1,40 +1,31 @@
 /* ---------------------------------------------------------------
    SECTION REGISTRY
 
-   This is the only file you edit when a NEW section is added.
-   To add one:
-     1. drop the new file into /data
-     2. add an import line below
-     3. add its name to the sections array, in menu order
+   Left menu: World Forums, Synthesis, Events, Supply Chains,
+   Corrections.
 
-   NOTE: chokepoints.js was merged into supply-chains.js in v9.0.
-   Trade routes are part of the supply chain. The old file can be
-   deleted from the repo.
+   World Forums is a wrapper importing security, economic,
+   universal, regional and lenses as tabs with subtabs.
+
+   The individual data files (security.js, economic.js etc.)
+   still exist and are imported through world-forums.js.
    --------------------------------------------------------------- */
 
-import { security } from './security.js';
-import { economic } from './economic.js';
-import { universal } from './universal.js';
-import { regional } from './regional.js';
+import { worldForums } from './world-forums.js';
 import { synthesis } from './synthesis.js';
-import { lenses } from './lenses.js';
 import { events } from './events.js';
 import { supplyChains } from './supply-chains.js';
 import { corrections } from './corrections.js';
 
 export const sections = [
-  security,
-  economic,
-  universal,
-  regional,
+  worldForums,
   synthesis,
-  lenses,
   events,
   supplyChains,
   corrections
 ];
 
 export const meta = {
-  version: '10.0',
+  version: '11.0',
   updated: '13 Sep 2026'
 };
