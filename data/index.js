@@ -10,13 +10,15 @@
    Everything else lives inside the individual data files.
    --------------------------------------------------------------- */
 
+import { security } from './security.js';
 import { chokepoints } from './chokepoints.js';
 
 export const sections = [
+  security,
   chokepoints
 ];
 
 export const meta = {
-  version: '4.0',
-  updated: '12 Sep 2026'
+  version: '4.1',
+  updated: '13 Sep 2026'
 };
