@@ -17,7 +17,9 @@ import { regional } from './regional.js';
 import { synthesis } from './synthesis.js';
 import { lenses } from './lenses.js';
 import { events } from './events.js';
+import { supplyChains } from './supply-chains.js';
 import { chokepoints } from './chokepoints.js';
+import { corrections } from './corrections.js';
 
 export const sections = [
   security,
@@ -27,10 +29,12 @@ export const sections = [
   synthesis,
   lenses,
   events,
-  chokepoints
+  supplyChains,
+  chokepoints,
+  corrections
 ];
 
 export const meta = {
-  version: '7.0',
+  version: '8.0',
   updated: '13 Sep 2026'
 };
