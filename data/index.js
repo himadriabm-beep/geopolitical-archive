@@ -13,16 +13,18 @@
 import { security } from './security.js';
 import { economic } from './economic.js';
 import { universal } from './universal.js';
+import { regional } from './regional.js';
 import { chokepoints } from './chokepoints.js';
 
 export const sections = [
   security,
   economic,
   universal,
+  regional,
   chokepoints
 ];
 
 export const meta = {
-  version: '4.3',
+  version: '4.4',
   updated: '13 Sep 2026'
 };
