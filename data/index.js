@@ -7,7 +7,9 @@
      2. add an import line below
      3. add its name to the sections array, in menu order
 
-   Everything else lives inside the individual data files.
+   NOTE: chokepoints.js was merged into supply-chains.js in v9.0.
+   Trade routes are part of the supply chain. The old file can be
+   deleted from the repo.
    --------------------------------------------------------------- */
 
 import { security } from './security.js';
@@ -18,7 +20,6 @@ import { synthesis } from './synthesis.js';
 import { lenses } from './lenses.js';
 import { events } from './events.js';
 import { supplyChains } from './supply-chains.js';
-import { chokepoints } from './chokepoints.js';
 import { corrections } from './corrections.js';
 
 export const sections = [
@@ -30,11 +31,10 @@ export const sections = [
   lenses,
   events,
   supplyChains,
-  chokepoints,
   corrections
 ];
 
 export const meta = {
-  version: '8.0',
+  version: '9.0',
   updated: '13 Sep 2026'
 };
