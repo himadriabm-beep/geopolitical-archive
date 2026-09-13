@@ -16,6 +16,7 @@ import { universal } from './universal.js';
 import { regional } from './regional.js';
 import { synthesis } from './synthesis.js';
 import { lenses } from './lenses.js';
+import { events } from './events.js';
 import { chokepoints } from './chokepoints.js';
 
 export const sections = [
@@ -25,10 +26,11 @@ export const sections = [
   regional,
   synthesis,
   lenses,
+  events,
   chokepoints
 ];
 
 export const meta = {
-  version: '6.0',
+  version: '7.0',
   updated: '13 Sep 2026'
 };
