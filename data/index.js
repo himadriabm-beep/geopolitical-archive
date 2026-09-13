@@ -12,15 +12,17 @@
 
 import { security } from './security.js';
 import { economic } from './economic.js';
+import { universal } from './universal.js';
 import { chokepoints } from './chokepoints.js';
 
 export const sections = [
   security,
   economic,
+  universal,
   chokepoints
 ];
 
 export const meta = {
-  version: '4.2',
+  version: '4.3',
   updated: '13 Sep 2026'
 };
