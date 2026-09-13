@@ -193,7 +193,7 @@ export const regional = {
             { cells: ['Reason', 'Bilateral trade agreements with Japan, Malaysia, Singapore, Thailand, South Korea and ASEAN were already in place'], source: 'JICEP, 2024' },
             { cells: ['Trade diversion', 'By not joining, India avoided trade diversion'], source: 'Sundaram 2022, via Chanakya University' },
             { cells: ['Deficits among members', 'ASEAN states collectively run a large and growing trade deficit with China, reaching around $164 billion in 2024'], source: 'Ensure IAS, Mar 2026' },
-            { cells: ['India\u2019s China deficit', 'Expected to reach US$106 billion in 2025-26'], source: 'Ensure IAS, Mar 2026' },
+            { cells: ['India\u2019s China deficit', 'Projected at US$106 billion for 2025-26; the outcome was a record US$112.16 billion on record bilateral trade of $151.1 billion'], source: 'Ensure IAS, Mar 2026 (projection) / CNBC, 12 Sep 2026 (outcome)' },
             { cells: ['India&ndash;ASEAN trade', 'ASEAN has become India\u2019s fourth-largest trading partner, displacing the EU'], source: 'GTRI via Chanakya University, 2024' }
           ]
         },
