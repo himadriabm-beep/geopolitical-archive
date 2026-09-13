@@ -16,7 +16,7 @@
 export const synthesis = {
   id: 'synthesis',
   title: 'Synthesis',
-  summary: 'The fourteen groupings arranged four ways — by world-order vision, by binding force, by overlap, and by the constraint they share.',
+  summary: '',
   tabs: [
 
     /* ---------------- BY WORLD-ORDER VISION ---------------- */
