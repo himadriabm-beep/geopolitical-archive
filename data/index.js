@@ -14,6 +14,7 @@ import { security } from './security.js';
 import { economic } from './economic.js';
 import { universal } from './universal.js';
 import { regional } from './regional.js';
+import { synthesis } from './synthesis.js';
 import { chokepoints } from './chokepoints.js';
 
 export const sections = [
@@ -21,10 +22,11 @@ export const sections = [
   economic,
   universal,
   regional,
+  synthesis,
   chokepoints
 ];
 
 export const meta = {
-  version: '4.4',
+  version: '5.0',
   updated: '13 Sep 2026'
 };
