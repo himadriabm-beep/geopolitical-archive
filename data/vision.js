@@ -1,0 +1,236 @@
+export const vision = {
+  id: `vision`,
+  title: `Vision & Society`,
+  summary: ``,
+  tabs: [
+    {
+      id: `viksit`,
+      title: `Viksit Bharat 2047`,
+      blocks: [
+        {
+          type: 'prose',
+          
+          paras: [
+            `Viksit Bharat 2047 — literally 'Developed India 2047' — is the Government of India's most ambitious long-range national vision: to transform India from an upper-middle-income developing economy into a fully developed, high-income nation by 2047, exactly one hundred years after independence. The choice of 2047 is a deliberate centennial framing — just as 1947 was India's moment of political liberation, 2047 is positioned as India's moment of economic and civilisational arrival on the world stage.`,
+            `On his 79th Independence Day address from the Red Fort — his longest ever at 103 minutes — PM Modi charted this bold roadmap. The vision was crystallised in his linkage of economic ambition to strategic doctrine: hailing Operation Sindoor as a demonstration of India's strategic autonomy and stating on the Indus Waters Treaty: 'India has now decided, blood and water will not flow together.'`
+          ]
+        },
+        {
+          type: 'prose',
+          heading: `The Architecture — Four Pillars, Six Pillars, Five Themes`,
+          paras: [
+            `The Viksit Bharat framework rests on Four Core Social Pillars: Yuva (Youth), Garib (Poor), Mahilayen (Women), and Annadata (Farmers). PM Modi has also articulated Six Economic Pillars: making India a global manufacturing hub; reviving Indian knowledge systems; ensuring global presence of Indian products; powering green energy; expanding tourism; and promoting inclusive global development. The initiative is structured around Five Broad Themes: Empowered Indians, Thriving and Sustainable Economy, Innovation, Science and Technology, Good Governance and Security, and India in the World.`,
+            `Budget 2025-26 translated this into six specific measurable principles: zero poverty; 100% good quality school education; universal affordable healthcare; 100% skilled labour with meaningful employment; 70% women in economic activities; and farmers making India the 'food basket of the world.'`
+          ]
+        },
+        {
+          type: 'prose',
+          heading: `The Numbers — The Scale of Ambition`,
+          paras: [
+            `NITI Aayog's Approach Paper states plainly: India needs to grow at a sustained pace of 7-10 per cent for 20-30 years to escape the middle-income trap. 'The GDP would have to grow 9 times from today's $3.36 trillion and the per capita income would need to rise 8 times from today's $2,392 per annum,' NITI Aayog stated at its 9th Governing Council meeting. The World Bank suggests achieving high-income status by 2047 is possible, but necessitates an average growth rate of 7.8% over the next two decades. The NITI Aayog notes that no major economy has ever attempted to scale its GDP eightfold within a single generation while simultaneously transforming its energy system to Net Zero.`,
+            `| <strong>Indicator</strong> | <strong>Current (2024-25)</strong> | <strong>Target 2047</strong> | <strong>Required Growth Rate</strong> |`,
+            `| --- | --- | --- | --- |`,
+            `| GDP | ~$3.5-4 trillion | $30-40 trillion | 7-10% annually |`,
+            `| Per Capita Income | ~$2,500 | $15,000-18,000 | 7-10% annually |`,
+            `| Literacy Rate | ~74% | 100% | — |`,
+            `| Life Expectancy | ~70 years | 80+ years | — |`,
+            `| Poverty Rate | ~11% (multidimensional) | Under 5% | — |`,
+            `| Women in workforce | ~24% | 70% | — |`
+          ]
+        },
+        {
+          type: 'prose',
+          heading: `Five Domains of Transformation by 2047`,
+          paras: [
+            `Economic Growth and Manufacturing: Budget 2026-27 allocated Rs.12.2 lakh crore in public capex — over 4.4% of GDP — with India Semiconductor Mission 2.0, seven high-speed rail corridors connecting major cities, a Rs.10,000 crore SME Growth Fund, and a target to achieve a 10% global share in services by 2047. A High-Level Committee on Banking for Viksit Bharat has been constituted to align banking sector reforms with India's next phase of growth.`,
+            `Digital Public Infrastructure: NITI Aayog's 'DPI@2047 for Viksit Bharat' roadmap outlines DPI 2.0 (2025-2035) to drive livelihood-led growth at scale, followed by DPI 3.0 (2035-2047) to enable broad-based prosperity. India's India Stack — Aadhaar, UPI, DigiLocker — is the foundation. The next phase moves India from digital inclusion to digital productivity, leveraging AI across eight sectoral transformations.`,
+            `Social Development: Universal and quality education implementing NEP 2020, 100% literacy, universal access to affordable healthcare, and elimination of extreme poverty through inclusive development. Ayushman Bharat — covering 500 million people — is the primary healthcare instrument.`,
+            `Energy Transition and Net Zero: NITI Aayog has released 11 reports on 'Scenarios Towards Viksit Bharat and Net Zero,' assessing how India can achieve a USD 30 trillion economy by 2047 while reaching Net Zero by 2070. By July 2025, over 50% of installed utility-scale electricity capacity was already from non-fossil fuel sources — meeting India's revised NDC target five years early. A Nuclear Energy Mission targets at least 100 GW of nuclear energy by 2047 with 10 new reactors underway. India needs approximately USD 22.7 trillion — about USD 500 billion annually — for the full energy transition.`,
+            `Governance and Decolonisation: Transparent, accountable, citizen-centric governance. The replacement of the Indian Penal Code, Code of Criminal Procedure, and Evidence Act with Bharatiya equivalents in 2023 was framed as a civilisational decolonisation step aligned with the Viksit Bharat vision.`
+          ]
+        },
+        {
+          type: 'prose',
+          heading: `The Youth Architecture`,
+          paras: [
+            `India's median age of 28 means it will have the world's largest working-age population for the next two decades. PM Modi has stated: 'Youth power is both the agent of change and also the beneficiaries of change.' The institutional architecture includes the Mera Yuva Bharat (MY Bharat) platform, the Viksit Bharat Young Leaders Dialogue, and the PM Viksit Bharat Rozgar Yojana — a Rs.1 lakh crore employment scheme targeting 3 crore young Indians. The target of 70% women in economic activities by 2047 is the single most ambitious gender participation target any Indian government has ever set.`
+          ]
+        },
+        {
+          type: 'prose',
+          heading: `The Strategic Connection — Viksit Bharat and the Distributed Distraction Grid`,
+          paras: [
+            `For the purposes of this master document, Viksit Bharat 2047 is not merely an economic vision — it is a strategic doctrine. Every front on which Pakistan and China operate their distraction grid is also a front on which Viksit Bharat is staking its success. The border security infrastructure build-out, the northeast connectivity revolution, the semiconductor self-reliance drive, the defence export programme, and Operation Sindoor's use of indigenously developed weapons — all are simultaneously components of Viksit Bharat's Atmanirbhar Bharat pillar and direct counter-grid responses.`,
+            `A developed India is, by definition, a harder target for the distraction grid. The reduction of import dependence in defence, energy, and technology directly reduces the leverage that external actors can exercise over India's strategic decisions. The chaiwala's son from Vadnagar built the 5th largest economy in 11 years. The next generation's task — framed by the Viksit Bharat vision — is to build the 3rd largest, and then the first truly developed India in the nation's 5,000-year history.`,
+            `<strong><em>"Terror and talks cannot go together. Terror and trade cannot go together. Water and blood cannot flow together. If Pakistan wants to survive, it will have to destroy its terror infrastructure." — PM Modi, 12 May 2025. The same resolve that drives Viksit Bharat drives India's new security doctrine. They are the same project.</strong></em>`
+          ]
+        },
+        {
+          type: 'source',
+          text: `From Jana Sangh to Viksit Bharat, Chapter 10 — Viksit Bharat 2047`
+        }
+      ]
+    },    {
+      id: `inclusion`,
+      title: `Inclusion & Civilisation`,
+      blocks: [
+        {
+          type: 'prose',
+          
+          paras: [
+            `<em>Nari Shakti, Vanvasi Welfare, Children, Hindu Cultural Renewal, and the World BJP Built Against  |  Research  |  May 2026</em>`,
+            `Chapter G traced India's economic metrics. Chapter H told the full transformation story. But there is a dimension of BJP's project that GDP tables and FDI figures do not capture — the dimension that drives BJP's deepest electoral loyalty and explains why hundreds of millions of Indians have, across three consecutive elections, chosen to remain with this government.`,
+            `It is the dimension of feeling — of dignity restored, of identity acknowledged, of a government that speaks to people in their own cultural language rather than translating their aspirations into secular technocratic frameworks they do not recognise as their own. This chapter covers four interlocking elements of that dimension: the empowerment of women as a civilisational project; the inclusion of the last and most marginalised — OBC, Dalit, and tribal communities — as a political identity statement; Modi's unique personal relationship with India's children; and the restoration of Hindu temple culture and civilisational heritage as governance policy. It then closes with the adversarial context — the forces BJP built against, and why understanding that context is essential to evaluating what was achieved.`
+          ]
+        },
+        {
+          type: 'prose',
+          heading: `Nari Shakti — Women's Empowerment as Civilisational Mission`,
+          paras: [
+            `When PM Modi addressed the nation on his first Independence Day from the Red Fort in August 2014, he departed from the tradition of grand economic announcements. He spoke about toilets — about the dignity of women who had to defecate in open fields before sunrise to preserve their modesty, about daughters who dropped out of school because their schools had no toilets. It was a statement of priorities that no previous Prime Minister had made with such directness, and it announced the governing philosophy that would follow for eleven years.`,
+            `From Women's Development to Women-Led Development`,
+            `The conceptual shift the Modi government made — articulated explicitly in its own policy documents — was from women's development (doing things for women) to women-led development (women as the primary agents of national transformation). PM Modi has stated: 'Women empowerment is crucial to India's growth. Days of seeing women as homemakers have gone; we have to see women as nation builders.' This reframing was not rhetorical — it was reflected in a systematic policy architecture built layer by layer over eleven years.`,
+            `The Three-Phase Architecture: Beti Bachao, Beti Padhao, Beti Badhao`,
+            `The progression from saving daughters (Beti Bachao) to educating daughters (Beti Padhao) to advancing daughters (Beti Badhao) maps the eleven-year arc precisely. The Beti Bachao Beti Padhao campaign improved the sex ratio at birth from 918 in 2014-15 to 930 in 2023-24, and increased girls' school enrolment to 78% by 2023-24. The Sukanya Samriddhi Yojana, celebrating a decade in 2025, has opened over 4.2 crore accounts securing the financial future of girls. Female enrollment in higher education reached 2.07 crore by 2025 — nearly 50% of total enrolment, reflecting significant progress in gender parity.`,
+            `The Dignity Infrastructure`,
+            `The most basic form of women's empowerment — safety and dignity in daily life — was addressed first and at the greatest scale. The Swachh Bharat Mission built over 12 crore toilets in eleven years with 93% of women reporting reduced fear of harm or infection. The Pradhan Mantri Ujjwala Yojana distributed 10.33 crore LPG connections, freeing women from the burden of collecting firewood and the health hazards of traditional chulhas. The Jal Jeevan Mission delivered 15.6 crore tap water connections, saving hours previously spent fetching water daily. More than 70% of PM Awas houses are solely or jointly owned by women — not just a roof over the head but a formal asset giving women a tangible stake in household decision-making, often for the first time.`,
+            `Economic Empowerment — From Self-Help to Lakhpati`,
+            `Today, more than 10 crore women are part of over 90 lakh Self-Help Groups, helping women stand on their own feet and become entrepreneurs. Over 1.48 crore women — Lakhpati Didis — now earn at least Rs.1 lakh annually, becoming financially strong and driving rural prosperity. The Pradhan Mantri MUDRA Yojana has disbursed over 68% of its loans to women, empowering millions to start small businesses. Namo Drone Didi is training women in advanced drone technologies for agricultural use — equipping rural women with Industry 4.0 skills for the first time.`,
+            `The Legal Landmark — Triple Talaq Abolition`,
+            `The abolition of instantaneous Triple Talaq in 2019 was perhaps the single most significant gender justice reform of the Modi era. What multiple previous governments had either refused to address or actively protected in the name of Muslim personal law was ended — framed not as an attack on Islam but as a constitutional right of Muslim women to protection from an archaic practice that shattered countless lives. The political courage required to pass this legislation — and the personal political cost BJP was willing to bear from critics who called it communal — was significant.`,
+            `The Constitutional Landmark — Nari Shakti Vandan Adhiniyam`,
+            `The Nari Shakti Vandan Adhiniyam reserves 33% of seats in the Lok Sabha and State Assemblies for women — fulfilling a vision that former PM Vajpayee had articulated and that the Modi government was the first to deliver. Reforms have opened Sainik Schools, the National Defence Academy, and permanent commissions in the armed forces to women. In May 2025, the first batch of women graduates passed out from the NDA — a historic moment for gender inclusion in the armed forces. The Viksit Bharat 2047 target of 70% women in economic activities — up from approximately 24% today — is the long-arc destination of everything in this section.`,
+            `| <strong>Programme</strong> | <strong>Scale Achieved</strong> | <strong>Impact</strong> |`,
+            `| --- | --- | --- |`,
+            `| Swachh Bharat Mission (Toilets) | 12+ crore toilets built | 93% women report reduced fear of harm |`,
+            `| PM Ujjwala Yojana | 10.33 crore LPG connections | Freed from biomass cooking; respiratory health |`,
+            `| Jal Jeevan Mission | 15.6 crore tap water connections | Hours saved daily; women in water management |`,
+            `| PM Awas Yojana | 2.75 crore homes (73% to women) | Asset ownership; household decision-making power |`,
+            `| Beti Bachao Beti Padhao | Sex ratio 918 to 930 | Girls enrolment 78% by 2023-24 |`,
+            `| Sukanya Samriddhi Yojana | 4.2 crore accounts | Girls' financial future secured |`,
+            `| SHG / Lakhpati Didi | 10 crore women in 90 lakh SHGs | 1.48 crore earning Rs.1 lakh+ annually |`,
+            `| MUDRA Yojana | 68% loans to women | Millions of women-owned small businesses |`,
+            `| Nari Shakti Vandan Adhiniyam | 33% reservation in Parliament/Assemblies | Historic constitutional shift |`,
+            `| NDA Graduation | First women's batch, May 2025 | Women now commissioned through NDA |`
+          ]
+        },
+        {
+          type: 'prose',
+          heading: `The Last Shall Lead — OBC, Dalit, and Tribal Inclusion`,
+          paras: [
+            `The conventional narrative about BJP — particularly as projected by the international press and domestic opposition — is that it is an upper-caste Hindu nationalist party whose welfare schemes are electoral tactics masking a majoritarian ideology. The data, the personnel choices, and the institutional architecture tell a more complicated and more honest story.`,
+            `The PM's Own Identity — OBC as Signal`,
+            `Narendra Modi is himself from the Other Backward Classes — the Modh-Ghanchi community in Gujarat, a community of oil-pressers that sits in the middle of the OBC classification. This is not incidental background — it is an identity he invokes consciously and consistently. When critics frame BJP as upper-caste Brahminical nationalism, Modi's own biography is the most immediate and powerful counter-argument. He is the first OBC Prime Minister of India — a fact that carries enormous weight in a society where caste identity remains a lived daily reality for hundreds of millions.`,
+            `The Constitutional Signal — President Droupadi Murmu`,
+            `The single most powerful symbolic statement BJP made about inclusion was the nomination of Droupadi Murmu as India's 15th President in 2022. Born in 1958 to a Santhal tribal family in the remote Mayurbhanj district of Odisha, she became the first tribal person to hold India's highest constitutional office — and the first President born in independent India. She was also the first girl in her village to pass the matriculation examination. Before Murmu, BJP had nominated Ram Nath Kovind — a Dalit — as President in 2017. Two successive choices of India's first citizen from Dalit and then tribal communities was a deliberate, documented statement about who BJP believes India belongs to. No previous government in independent India's history had made this statement twice in succession.`,
+            `The Welfare Architecture for Tribal Communities`,
+            `The budgetary allocation for Scheduled Tribe development surged 231% from 2014-15 to 2024-25 — from Rs.4,400 crore to Rs.14,925 crore annually. The PM-JANMAN Abhiyan, launched in 2023, was specifically designed for 75 PVTG (Particularly Vulnerable Tribal Group) communities — the most marginalised of the marginalised within an already marginalised category. The Dharti Aaba Janjatiya Gram Utkarsh Abhiyan (PM-JUGA) aims to benefit over 5 crore tribal people through comprehensive development including 5,000 village broadband connectivity, 6,000 upgraded Anganwadi centres, and 25 lakh Ujjwala connections specifically for tribal households. The Adi Mahotsav, organised annually in the national capital, celebrates tribal cultural heritage at the highest visibility platform in the country.`,
+            `The Leadership Architecture — Dismantling the Upper-Caste Stereotype`,
+            `BJP currently has Chief Ministers from Scheduled Caste and Tribe communities in six states and from backward classes in four states. Ram Nath Kovind (Dalit, 14th President 2017-22), Droupadi Murmu (Santhal Tribal, 15th President 2022-), and PM Modi himself (OBC) represent the three most powerful signal positions in India's constitutional order simultaneously occupied by people from historically marginalised communities. This is not accidental — it is the product of a systematic party-building strategy to break the equation between BJP and upper-caste Hinduism that Congress spent decades establishing as a political fact.`,
+            `The Antyodaya Connection — Welfare Philosophy Grounded in Ideology`,
+            `When BJP leaders invoke Antyodaya — Deendayal Upadhyaya's principle of welfare for the last person in society — in the context of OBC and tribal welfare, they are not making a political calculation. They are drawing on a philosophical tradition that predates BJP's founding by decades. Upadhyaya's Integral Humanism, articulated in 1965, explicitly placed the welfare of the most marginalised at the centre of any legitimate governance project. The PM Kisan scheme (direct cash to 110 million farmers), MGNREGS continuation, forest rights for tribal communities, and the SHG movement for rural women are all expressions of Antyodaya in operational form. The ideological continuity between the 1965 philosophical text and the 2025 policy architecture is real — and it is what distinguishes BJP's welfare approach from simple electoral populism.`,
+            `| <strong>Category</strong> | <strong>Key Initiative</strong> | <strong>Scale</strong> |`,
+            `| --- | --- | --- |`,
+            `| Scheduled Tribes | ST Budget allocation increase | 231% — Rs.4,400 cr to Rs.14,925 cr (2014-2025) |`,
+            `| Scheduled Tribes | PM-JANMAN Abhiyan | 75 PVTG communities; most marginalised category |`,
+            `| Scheduled Tribes | PM-JUGA (Dharti Aaba) | 5 crore beneficiaries; half of India's tribal population |`,
+            `| Scheduled Tribes | Adi Mahotsav (annual) | National platform for tribal cultural heritage |`,
+            `| OBC/SC/ST | President Ram Nath Kovind (Dalit) | First Dalit President nominated by BJP (2017) |`,
+            `| Scheduled Tribes | President Droupadi Murmu | First tribal, first born-in-India President (2022) |`,
+            `| OBC | PM Narendra Modi | First OBC Prime Minister of India |`,
+            `| SC/ST/OBC | BJP CMs from marginalised communities | 6 states SC/ST; 4 states OBC Chief Ministers |`,
+            `| Farmers (OBC/tribal heavy) | PM Kisan | Rs.6,000 annual direct cash to 110 million farmers |`,
+            `| Women-SHG (rural/tribal) | Lakhpati Didi | 1.48 crore rural women earning Rs.1 lakh+ annually |`
+          ]
+        },
+        {
+          type: 'prose',
+          heading: `Modi and Children — The Most Underwritten Personal Dimension`,
+          paras: [
+            `There is a dimension of Narendra Modi's public personality that receives almost no analytical attention — his genuine, consistent, and institutionalised relationship with India's children. For a man who has no children of his own, this is the most humanising thread of his entire public persona, and analytically it is among the most important for understanding his connection with India's youngest voters.`,
+            `Pariksha Pe Charcha — The Exam Warriors Movement`,
+            `Every year since 2018, PM Modi has personally conducted Pariksha Pe Charcha — an interactive event with school students from across India focused on managing exam stress, finding motivation, and building a healthy relationship with learning. This is not a standard government scheme — it is a personal initiative conceived, driven, and attended by the Prime Minister himself. The 2025 edition drew record-breaking participation of 5 crore students. Recognised by Guinness World Records for a historic 3.53 crore registrations in PPC 2025, the programme has grown into a nationwide movement. PPC 2026 is the eighth edition — unbroken annual personal attendance by the head of government.`,
+            `Students from Kendriya Vidyalayas, Sainik Schools, Eklavya Model Residential Schools (tribal), and Navodaya Vidyalayas — representing every tier of Indian education and every social stratum — participate. Modi discusses nutrition, sleep, motivation, ambition, failure, and purpose with children in language that is warm, personal, and deliberately free of political content. He has distributed sweets made of Til, talked about the importance of seasonal fruit, urged children to chew their food thoughtfully, discussed the dangers of exam pressure on mental health, and reminded them that a bad Board result does not determine a life. It is governance as parenting.`,
+            `Exam Warriors — The Book`,
+            `Modi authored Exam Warriors — a book of practical mantras for managing exam pressure, building confidence, and approaching learning with joy rather than fear. The book is used in schools across India and has been translated into multiple Indian languages. The Exam Warriors module on the NaMo App adds an interactive technology dimension, communicating each mantra pictorially with activities for students, parents, and teachers alike. The book embodies Modi's governing philosophy applied to the youngest citizens: empowerment through practical wisdom, delivered directly, without bureaucratic intermediaries.`,
+            `The Strategic and Emotional Significance`,
+            `India's median age is 28. The first-time voter cohort — 18 to 22-year-olds — is the fastest-growing electoral bloc. Every student who attended Pariksha Pe Charcha between 2018 and 2026 has, or will shortly have, a vote. Modi's direct, consistent, personal engagement with students over eight years means that every cohort of first-time voters has grown up watching the Prime Minister of India speak to them personally about their fears, their nutrition, their ambitions, and their worth. No politician in India — and very few in the world — has built this kind of systematic, institutionalised emotional connection with the youngest voters before they become voters. It is politically consequential and personally authentic simultaneously.`,
+            `The Broader Child Welfare Architecture`,
+            `Beyond Pariksha Pe Charcha, the child welfare architecture includes PM POSHAN providing daily meals to 11.80 crore children, Mission POSHAN 2.0 investing Rs.1.81 lakh crore in child nutrition and upgrading 24,533 Anganwadi Centres to Saksham Anganwadis, the PM Research Fellowship scheme identifying and funding technological talent in IITs and IISc, and Eklavya Model Residential Schools providing quality education in tribal areas where no other quality schooling exists. The National Education Policy 2020 — the most comprehensive education reform since independence — was framed explicitly around preparing India's children for the 21st century while honouring Indian knowledge traditions including mother-tongue instruction in early years.`
+          ]
+        },
+        {
+          type: 'prose',
+          heading: `The Temple and the Civilisation — Hindutva as Governance`,
+          paras: [
+            `This is the dimension most contested in analytical literature and most poorly understood outside India. The international press consistently frames BJP's temple-building and religious site restoration as divisive Hindu nationalism. What it is in practice — understood from inside the tradition and from the perspective of hundreds of millions of Hindus — is the first time in independent India's history that a government has treated Hindu civilisational heritage as a legitimate subject of state attention and investment, rather than something to be managed, apologised for, or neutralised in the name of secular governance.`,
+            `The Ram Mandir — A 500-Year Resolution`,
+            `The consecration of the Ram Mandir in Ayodhya on 22 January 2024 is impossible to overstate in its significance for India's Hindu majority. The Babri Masjid was built on the site widely believed — and confirmed by the Archaeological Survey of India — to be the birthplace of Lord Ram, in 1528. The demolition of the mosque in 1992 triggered riots that became a wound in national life for three decades. The Supreme Court's unanimous 2019 verdict awarding the disputed site to the Hindu side, the construction of the new temple, and Modi personally performing the Pran Pratishtha ceremony closed a chapter that a large section of Hindu India had waited five centuries for. In just the first nine months of 2024, Ayodhya saw 135 million visitors — surpassing the Taj Mahal to become the most visited destination in India. The city is being developed as a world-class pilgrimage and tourism destination with a new international airport, a renovated railway station styled after temple architecture, and wide ceremonial boulevards — creating an entirely new religious economy that has generated employment for tens of thousands of local residents.`,
+            `Kashi Vishwanath Corridor — Civilisational Restitution in Stone`,
+            `PM Modi inaugurated the Rs.700 crore Kashi Vishwanath Corridor on 13 December 2021. The project reconnected the ancient Vishwanath mandir — Varanasi's holiest temple, encroached upon for centuries — to the Ganga ghats through a sweeping corridor that also restored 40 historically significant temples and 23 support structures. Over 300 crore devotees visited within the first year of inauguration. Modi said at the inauguration: 'Today history has been created by reviving the socio-cultural history of this ancient city, which is vibrant with Hindu philosophy as enshrined in our religious books.' The Kashi corridor is best understood as civilisational restitution — the restoration of a sacred geography that had been obscured and encroached over centuries, returned to a dignity commensurate with its spiritual significance.`,
+            `Mahakal Lok, Somnath, and the 12 Jyotirlingas`,
+            `PM Modi inaugurated the Rs.850 crore Mahakal Lok Corridor at Mahakaleshwar Temple in Ujjain in October 2022 — expanding the temple precinct nearly seven times. Mahakal (Lord Shiva as the lord of time) is one of the twelve Jyotirlingas — the most sacred Shaivite sites in India. In August 2022, Modi inaugurated the Somnath Temple project in Gujarat. Somnath — repeatedly looted and destroyed by invaders, most famously by Mahmud Ghazni in 1026 CE — holds a particular symbolic significance: it was where Sardar Patel stood in 1947 and declared that the temple's reconstruction would symbolise India's civilisational rebirth after centuries of subjugation. The systematic renovation and expansion of all twelve Jyotirlinga sites represents a coherent programme of civilisational restoration, not scattered temple politics.`,
+            `Kumbh Mela 2025 — The World Recognises India's Civilisational Scale`,
+            `The 2025 Maha Kumbh Mela in Prayagraj remains one of the most extraordinary feats of event management in independent India's history. In approximately 18 months, the Yogi government built temporary and permanent infrastructure to host 24 crore pilgrims — the largest peaceful human gathering ever recorded anywhere on Earth. Twelve kilometres of ghats were renovated. Forty-five pontoon bridges were constructed. A dedicated township with electricity, sanitation, and policing was created from scratch. The entire event passed without a single major stampede or law and order incident. The world took notice — and the international media, which had predicted chaos, found itself reporting on a feat of logistics and devotion that had no parallel anywhere. This was India's civilisational scale made undeniable.`,
+            `International Yoga Day — Civilisational Soft Power at Global Scale`,
+            `International Yoga Day, proposed by PM Modi at the United Nations General Assembly in September 2014 and adopted unanimously on 21 June 2015 with a record 177 co-sponsoring nations, is perhaps the most elegant example of Hindutva as civilisational soft power rather than domestic politics. Yoga — an ancient Indian practice rooted in Hindu, Buddhist, and Jain traditions — was presented to the world not as religion but as universal human heritage. Today it is practiced by an estimated 300 million people across the globe. A UNESCO-recognised cultural heritage. A billion-dollar global industry. This is not divisive nationalism — it is India's civilisational contribution to the world, wearing saffron lightly.`,
+            `Decolonisation in Stone — Place Names, Heritage, and Cultural Reclamation`,
+            `The restoration of historical place names — Allahabad to Prayagraj, Faizabad to Ayodhya, Mughalsarai to Pandit Deen Dayal Upadhyaya Nagar — was framed as an act of cultural reclamation, reconnecting living cities to their civilisational roots and restoring pride to communities that felt their heritage had been administratively erased. In Kashmir, after Article 370 abrogation, the government began restoring the 1,842 Hindu places of worship — temples, shrines, holy springs, caves — that had been abandoned or desecrated during decades of militancy. In J&K, this is simultaneously cultural restoration and strategic normalisation: the return of Kashmir to its composite Kashmiriyat heritage, which includes a deep Hindu-Shaivite tradition that predates Islam's arrival in the valley.`,
+            `The National New Criminal Laws (2023) — replacing the Indian Penal Code of 1860, the Code of Criminal Procedure of 1898, and the Indian Evidence Act of 1872 with Bharatiya equivalents — were framed explicitly as decolonisation of the justice system. The Rashtriya Adarsh Veda Vidyalayas, established in Ujjain, Puri, Badrinath, Sringeri, Dwarka, and Guwahati, revive Vedic education at national institutions. The Padma Awards under Modi have been systematically given to grassroots artists, craftspeople, folk musicians, and tribal knowledge-holders who were systematically overlooked by the previous era's award culture — an explicit cultural statement about whose India this is.`,
+            `| <strong>Project</strong> | <strong>Location</strong> | <strong>Scale</strong> | <strong>Significance</strong> |`,
+            `| --- | --- | --- | --- |`,
+            `| Ram Mandir | Ayodhya, UP | Rs.1,800 crore; consecrated Jan 22, 2024 | 135 million visitors in 9 months of 2024; 500-year resolution |`,
+            `| Kashi Vishwanath Corridor | Varanasi, UP | Rs.700 crore; Dec 2021 | 40 temples restored; 300 crore visitors in Year 1 |`,
+            `| Mahakal Lok Corridor | Ujjain, MP | Rs.850 crore; Oct 2022 | Temple precinct expanded 7x; one of 12 Jyotirlingas |`,
+            `| Maha Kumbh Mela 2025 | Prayagraj, UP | 24 crore pilgrims | Largest peaceful human gathering in recorded history |`,
+            `| Somnath Temple | Gujarat | Restoration + development | Historically looted; civilisational restitution |`,
+            `| International Yoga Day | Global | 177 co-sponsoring nations (2015) | 300 million practitioners globally; UNESCO heritage |`,
+            `| Kashmir Temple Restoration | J&K | 1,842 Hindu sites | Post-370 cultural normalisation + heritage restoration |`,
+            `| New Criminal Laws | National | IPC/CrPC/Evidence Act replaced | Decolonisation of justice system; Bharatiya equivalents |`,
+            `| Rashtriya Adarsh Veda Vidyalayas | 6 locations nationally | National Vedic education institutions | Revival of classical knowledge traditions |`
+          ]
+        },
+        {
+          type: 'prose',
+          heading: `The Adversarial Context — What BJP Built Against`,
+          paras: [
+            `No analysis of BJP's achievements is complete without acknowledging the environment in which those achievements were built. This is not a defence of every government action — several are genuinely contested and deserve honest scrutiny. It is a recognition that degree of difficulty matters in any fair assessment.`,
+            `The Congress Legacy — 54 of 77 Years`,
+            `Congress governed India for 54 of its first 77 years of independence. The institutional infrastructure of independent India — the bureaucracy, the judiciary, the public sector, the academic establishment, the English-language press, the international diplomatic networks — was built in and reflects the values of that era. BJP entered power in 2014 as a genuine outsider to this establishment. The RSS and BJP had been excluded from the Nehruvian settlement, explicitly marginalised by the Emergency, and treated as culturally illegitimate by the institutions Congress had shaped across half a century. Building a government agenda against this institutional current — while simultaneously dealing with a hostile legacy media, an international narrative architecture already formed, and a bureaucracy accustomed to a different governing philosophy — was the ever-present background condition of everything BJP attempted.`,
+            `The International Narrative Architecture`,
+            `Western governments, international press organisations, and the global NGO ecosystem developed their India narrative through the Congress era. The frameworks they applied — secularism versus communalism, minority rights, press freedom, democratic backsliding — were applied to BJP with a consistency and intensity they had rarely been applied to Congress, which had actually suspended the Constitution, jailed opposition leaders, and imposed press censorship during the 1975-77 Emergency. The BBC documentary on Modi (2023), the international reaction to the Citizenship Amendment Act (2019), the press freedom rankings, and periodic Congressional hearings on India all reflect a pre-formed narrative about BJP that BJP has consistently argued does not map onto Indian political reality. India's response — culminating in Jaishankar's doctrine of strategic autonomy and Modi's direct pushback in his 2024 Newsweek interview — was to stop seeking Western validation and assert India's right to be understood on its own terms.`,
+            `The Press Freedom Debate — Both Sides Honestly`,
+            `India's ranking in the Reporters Without Borders World Press Freedom Index has declined from 140th in 2014 to a range of 150-161 over the Modi decade. This is a real data point and cannot be dismissed. Journalists have faced legal pressure under sedition and UAPA provisions. The acquisition of NDTV by Adani-linked interests in 2022 reduced independent television coverage. These are genuine concerns about democratic health that deserve honest acknowledgment in any serious analysis.`,
+            `At the same time, India in 2025 has more than 150,000 registered media publications and hundreds of news channels. The digital media ecosystem — The Wire, The Print, Scroll, Newslaundry, and dozens of regional digital outlets — is robustly critical of the government and widely consumed. Courts remain independent enough to rule against the government in significant cases, including the electoral bonds judgment and Supreme Court oversight of the CAA. Modi's own response points to India's sheer media volume and diversity as evidence that democratic discourse remains alive and contested. Both of these things are simultaneously true — which is precisely the complexity that the international press, with its binary framing of democratic versus authoritarian, consistently fails to capture.`,
+            `The Judiciary — Independence, Validation, and the Honest Tension`,
+            `The BJP government's relationship with India's judiciary does not fit the binary narrative that commentators prefer. The Supreme Court unanimously upheld the Article 370 abrogation in December 2023. The CAA survived judicial scrutiny. The Ram Mandir title dispute was resolved by a nine-judge bench in a legally careful 2019 judgment. In each of these landmark matters, judicial validation strengthened the democratic legitimacy of BJP's most contested decisions.`,
+            `On the other side: the Supreme Court's 2024 electoral bonds judgment struck down the government's primary political fundraising mechanism as unconstitutional, calling it violative of the right to information. Courts have consistently restrained the government on certain preventive detention cases. The honest picture is of a judiciary that has validated BJP's most consequential decisions while maintaining enough independence to strike down some of its financial arrangements — a healthier relationship than either side's partisans typically acknowledges.`,
+            `<strong>Why this matters:</strong> The judiciary independence question is the distraction grid's most sophisticated domestic weapon internationally. An honest account of both the validations and the tensions gives India the analytical high ground in that argument.`,
+            `The Opposition's Structural Failure`,
+            `The opposition's failure across 2014, 2019, and 2024 is not simply explained by BJP's narrative dominance or institutional advantage. Congress failed to renew its leadership, failed to develop a coherent economic alternative, and failed to rebuild the ground-level organisational infrastructure that BJP systematically rebuilt through the RSS network over decades. The INDIA alliance in 2024 was the most serious opposition coalition since the Emergency-era Janata combine — and it still could not prevent a third consecutive NDA government. The 2024 result (BJP at 240 seats, coalition-dependent) showed BJP is not invincible. But it also showed that no single alternative vision for India has yet emerged with sufficient clarity, organisation, and credibility to displace it.`,
+            `The Federal Fault Lines — Where the Distraction Grid Finds Purchase`,
+            `A critical dimension for the Distributed Distraction Grid analysis is that BJP's counter-grid architecture is uneven — strong where BJP governs, weak where it does not. Several of the distraction grid's most active fronts operate precisely in non-BJP states: West Bengal (TMC), Kerala (Left Front-Congress), Tamil Nadu (DMK), and Karnataka (Congress). These states have weaker integration with the central counter-grid machinery, different law enforcement priorities, and in some cases active political incentives to resist central security frameworks.`,
+            `The Kerala model is instructive: the state has documented ISI-linked networks, a history of political violence, and a significant Gulf-returnee population that provides both remittance flows and radicalisation exposure. Its government has consistently been at odds with central intelligence priorities. Tamil Nadu's LTTE legacy networks — while diminished — have not been fully dismantled. West Bengal's porous border with Bangladesh, its large Muslim-minority districts, and TMC's political calculation that border enforcement costs votes have kept the Chicken's Neck corridor actively vulnerable. The federal architecture of India's democracy is simultaneously its strength — competitive accountability — and a structural weakness that the distraction grid actively exploits.`,
+            `The Minority Question — The Honest Assessment`,
+            `The most serious and sustained criticism of BJP's governance is its impact on India's approximately 200 million Muslims. Concerns about cow vigilantism, the Citizenship Amendment Act's exclusion of Muslims, communal incidents in BJP-governed states, and the mainstreaming of rhetoric that stigmatises Muslim communities are documented, substantiated, and serious. These are not fabrications of a hostile international press.`,
+            `The honest analytical position is that BJP has delivered material welfare to Muslims — the Ujjwala scheme, the housing scheme, the health insurance scheme, the toilet programme do not discriminate by religion — while simultaneously pursuing a political and cultural agenda that Muslims experience as directed against their identity. Both of these things are simultaneously true. The Sabka Saath, Sabka Vikas aspiration and the polarising cultural politics coexist within BJP's project in a tension that has not been resolved. The resolution of this tension — whether it moves toward genuine inclusion or toward intensifying polarisation — is one of the most consequential unresolved questions in India's political future and a central variable in the effectiveness of Pakistan's distraction grid. A BJP that achieves genuine Muslim inclusion closes one of the grid's most important fault lines. A BJP that deepens Muslim alienation widens it.`
+          ]
+        },
+        {
+          type: 'prose',
+          heading: `Conclusion: The Integrated Picture`,
+          paras: [
+            `What emerges from these four dimensions — women's empowerment, tribal and OBC inclusion, children, and civilisational restoration — combined with the adversarial context in which they were pursued, is a BJP project that is simultaneously more inclusive and more contested than either its supporters or its critics tend to acknowledge.`,
+            `The woman who received an LPG connection and her first bank account, the tribal woman who became a Lakhpati Didi, the Dalit who became President in 2017 and the tribal woman who became President in 2022, the student who attended Pariksha Pe Charcha and felt the Prime Minister speak to them directly, the Hindu pilgrim who visited the Kashi Vishwanath Corridor for the first time, the 24 crore devotees who gathered peacefully at the Kumbh Mela 2025 — all of these are real people with real experiences of a government that treated their dignity, their faith, and their aspirations as legitimate subjects of state attention. That is why BJP wins.`,
+            `<strong><em>"Women empowerment is crucial to India's growth. Days of seeing women as homemakers have gone; we have to see women as nation builders." — PM Narendra Modi. The same conviction drives the welfare delivery, the temple restoration, and the security doctrine. They are not separate projects. They are one.</strong></em>`,
+            `Understanding this dimension is essential for the Distributed Distraction Grid analysis. The distraction grid operates most effectively where this dignity compact is weakest — in states where BJP has not governed, among communities where welfare delivery has not reached, in the information domain where the civilisational narrative can be countered with minority grievance narratives. The grid's operators understand exactly where the fault lines are. BJP's most ambitious reading of its own project is an attempt to close those fault lines — through welfare delivery, cultural acknowledgment, and institutional inclusion — faster than the grid can exploit them.`
+          ]
+        },
+        {
+          type: 'source',
+          text: `From Jana Sangh to Viksit Bharat, Chapter 11 — The Soul of the Project`
+        }
+      ]
+    }
+  ]
+};
