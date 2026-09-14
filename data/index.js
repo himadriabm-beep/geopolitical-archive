@@ -33,6 +33,6 @@ export const groups = [
 export const standalone = [corrections];
 
 export const meta = {
-  version: '13.0',
+  version: '14.0',
   updated: '14 Sep 2026'
 };
