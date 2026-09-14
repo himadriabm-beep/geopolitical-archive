@@ -6,13 +6,13 @@
    --------------------------------------------------------------- */
 
 export const ideology = {
-  id: 'ideology',
-  title: 'Ideology & Electoral',
-  summary: '',
+  id: `ideology`,
+  title: `Ideology & Electoral`,
+  summary: ``,
   tabs: [
     {
-      id: 'origins',
-      title: 'Origins & Ideology',
+      id: `origins`,
+      title: `Origins & Ideology`,
       blocks: [
         {
           type: 'prose',
@@ -214,8 +214,8 @@ export const ideology = {
       ]
     },
     {
-      id: 'electoral',
-      title: 'Electoral Journey',
+      id: `electoral`,
+      title: `Electoral Journey`,
       blocks: [
         {
           type: 'prose',
