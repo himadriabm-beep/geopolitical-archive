@@ -1,11 +1,8 @@
 /* ---------------------------------------------------------------
-   SECTION REGISTRY — v12.0
+   SECTION REGISTRY — v13.0
 
    Two pillars: International Geo Politics and Internal Dynamics.
    Corrections sits standalone outside both.
-
-   The `groups` array drives the collapsible sidebar.
-   The `standalone` array renders below the groups.
    --------------------------------------------------------------- */
 
 import { worldForums } from './world-forums.js';
@@ -13,6 +10,11 @@ import { synthesis } from './synthesis.js';
 import { events } from './events.js';
 import { supplyChains } from './supply-chains.js';
 import { ideology } from './ideology.js';
+import { governance } from './governance-internal.js';
+import { economyInternal } from './economy-internal.js';
+import { vision } from './vision.js';
+import { securityGrid } from './security-grid.js';
+import { doctrine } from './doctrine.js';
 import { corrections } from './corrections.js';
 
 export const groups = [
@@ -24,13 +26,13 @@ export const groups = [
   {
     id: 'internal',
     title: 'Internal Dynamics',
-    sections: [ideology]
+    sections: [ideology, governance, economyInternal, vision, securityGrid, doctrine]
   }
 ];
 
 export const standalone = [corrections];
 
 export const meta = {
-  version: '12.0',
+  version: '13.0',
   updated: '14 Sep 2026'
 };
