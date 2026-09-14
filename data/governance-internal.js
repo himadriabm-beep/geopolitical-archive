@@ -702,6 +702,314 @@ export const governance = {
           text: `From Jana Sangh to Viksit Bharat, Chapter 14 — The PM's Lens`
         }
       ]
+    },
+    {
+      id: `exam-reforms`,
+      title: `Exam Reforms`,
+      blocks: [
+        {
+          type: 'prose',
+          heading: `The institution at the centre of the crisis`,
+          paras: [
+            `The National Testing Agency was established in 2017 as an autonomous organisation under the Ministry of Education to conduct entrance examinations for higher education. It is registered as a society under the Societies Registration Act, 1860 — not a statutory body. <span class="src">Business Standard, Aug 2026</span>`,
+            `By 2026 NTA was conducting 18 or more national examinations annually for over 4.5 crore (45 million) candidates — making it one of the largest examination-conducting bodies in the world — with a staff of roughly 22 employees on deputation, 38 contract staff and 138 outsourced personnel. <span class="src">HPTF submission, citing NTA data placed in Parliament, Dec 2024</span>`
+          ]
+        },        {
+          type: 'timeline',
+          heading: `The 2024 crisis`,
+          items: [
+            { when: `May 2024`, what: `NEET-UG 2024 conducted for approximately 24 lakh candidates. Allegations of paper leak surface, centred on Hazaribagh, Jharkhand. Bihar Economic Offences Unit investigation leads to 13-plus arrests of an interstate organised gang.`, source: `Bihar EOU / CBI investigation` },
+            { when: `Jun 2024`, what: `UGC-NET examination cancelled after its paper is found compromised and circulated via the darknet. Roughly 1,563 NEET candidates found to have received grace marks under an undisclosed formula, producing 67 candidates scoring a perfect 720.`, source: `Wikipedia / Business Standard` },
+            { when: `22 Jun 2024`, what: `The Ministry of Education constitutes a seven-member High-Level Committee of Experts chaired by former ISRO Chairman Dr K. Radhakrishnan to recommend reforms in the NTA.`, source: `NewsOnAir, 25 Jun 2024` },
+            { when: `Oct 2024`, what: `The Radhakrishnan Committee submits its report with 101 recommendations, prepared after 23 formal full-day sittings and over 37,000 public responses. Its mandate had been expanded by the Supreme Court in Vanshika Yadav v. Union of India.`, source: `Business Standard, 27 Jul 2026 / Vajiram & Ravi` }
+          ]
+        },        {
+          type: 'table',
+          heading: `Radhakrishnan Committee composition`,
+          columns: [`Member`, `Role`],
+          rows: [
+            { cells: [`Dr K. Radhakrishnan (Chair)`, `Former ISRO Chairman; Chairman, Board of Governors, IIT Kanpur`], source: `MoE, Jun 2024` },
+            { cells: [`Dr Randeep Guleria`, `Former Director, AIIMS`], source: `Organiser, Oct 2024` },
+            { cells: [`B.J. Rao`, `Vice-Chancellor, Hyderabad Central University`], source: `Organiser, Oct 2024` },
+            { cells: [`Professor Ramamurthy K`, `Professor Emeritus, IIT Madras`], source: `Organiser, Oct 2024` },
+            { cells: [`Pankaj Bansal`, `Karmayogi Bharat Board Member`], source: `Organiser, Oct 2024` },
+            { cells: [`Aditya Mittal`, `Professor, IIT Delhi`], source: `Organiser, Oct 2024` },
+            { cells: [`Govind Jaiswal`, `Joint Secretary, Ministry of Education`], source: `Organiser, Oct 2024` }
+          ]
+        },        {
+          type: 'timeline',
+          heading: `The 2026 crisis — it happened again`,
+          items: [
+            { when: `3 May 2026`, what: `NEET-UG 2026 conducted for over 2.27 million registered candidates seeking admission to undergraduate medical and dental programmes.`, source: `Wikipedia, 2026 NEET scandal` },
+            { when: `12 May 2026`, what: `Examination cancelled after investigators find substantial overlap between a circulated guess paper and the actual paper. CBI chargesheet names three NTA-trusted subject experts involved in the translation process.`, source: `Wikipedia / CBI chargesheet` },
+            { when: `15 May 2026`, what: `Education Minister Dharmendra Pradhan admits the breach at a media briefing, describing NTA-trusted teachers as protectors who became predators.`, source: `Outlook India, Jul 2026` },
+            { when: `25 May 2026`, what: `The Supreme Court seeks a status report on implementation of the 2024 Radhakrishnan Committee recommendations.`, source: `Business Standard, 25 May 2026` },
+            { when: `21 Jun 2026`, what: `Re-examination conducted. At least 12 students who were scheduled to retake the exam took their own lives in the intervening period.`, source: `Wikipedia, 2026 NEET scandal` },
+            { when: `Jul 2026`, what: `The Public Examinations (Prevention of Unfair Means) Amendment Act, 2026 is passed by both Houses, raising the minimum sentence to 5 years and the maximum to 10.`, source: `HPTF submission` },
+            { when: `25 Jul 2026`, what: `Education Minister Dharmendra Pradhan resigns — described as the first cabinet resignation under sustained public pressure during Modi’s tenure.`, source: `Careerindia / Frontline, 25 Jul 2026` }
+          ]
+        },        {
+          type: 'reading',
+          paras: [
+            `The sequence from 2024 to 2026 is the most damaging pattern in this archive’s governance section. The Radhakrishnan Committee produced 101 recommendations in October 2024. Seven months later, the same category of failure — a paper leak through NTA-trusted insiders — recurred on a larger scale and with graver consequences. A legislative response was passed on the same day the HPTF was announced, raising penalties without mandating structural prevention.`,
+            `That is the cycle the HPTF exists to break: crisis → committee → recommendations → incomplete implementation → repeat crisis. The submission that follows was written for this consultation.`
+          ]
+        },        {
+          type: 'table',
+          heading: `The High-Powered Task Force`,
+          columns: [`Member`, `Background`],
+          rows: [
+            { cells: [`Nandan Nilekani (Chair)`, `Infosys co-founder; former Chairman of the Unique Identification Authority of India; architect of Aadhaar`], source: `PIB, 28 Aug 2026` },
+            { cells: [`S. Somanath`, `Former Chairman, Indian Space Research Organisation`], source: `Business Standard, 28 Aug 2026` },
+            { cells: [`Tapan Deka`, `Former Director, Intelligence Bureau`], source: `Business Standard, 28 Aug 2026` },
+            { cells: [`V. Kamakoti`, `Director, IIT Madras`], source: `Business Standard, 28 Aug 2026` },
+            { cells: [`Anita Karwal`, `Former Secretary, School Education`], source: `Business Standard, 28 Aug 2026` },
+            { cells: [`Amrit Lal Meena`, `Former Chief Secretary, Bihar`], source: `Business Standard, 28 Aug 2026` }
+          ]
+        },        {
+          type: 'list',
+          heading: `The public consultation`,
+          items: [
+            { text: `Constituted July 2026 by the Government of India under the Ministry of Personnel, Public Grievances and Pensions.`, source: `PIB, 28 Aug 2026` },
+            { text: `Public consultation opened 28 August 2026, closed 13 September 2026.`, source: `PIB, 28 Aug 2026` },
+            { text: `Submissions accepted via a dedicated portal, toll-free number (1800-180-4747), WhatsApp, and email, in English, Hindi and regional languages.`, source: `PIB, 28 Aug 2026` },
+            { text: `Ten suggestive areas listed, spanning conduct and security, assessment methodology, governance, malpractice prevention, technology, infrastructure, inclusion, transparency, student well-being and any other measure of value.`, source: `PIB, 28 Aug 2026` }
+          ]
+        },        {
+          type: 'prose',
+          heading: `Our submission to the HPTF`,
+          paras: [
+            `What follows is the full text of the detailed brief submitted to the High-Powered Task Force consultation on 13 September 2026. It covers six thematic areas — conduct and security, examination design, governance, technology, accessibility, and student well-being — each structured as loopholes identified with evidence, followed by recommendations with international reference points, followed by measurable success indicators.`
+          ]
+        },        {
+          type: 'prose',
+          
+          paras: [
+            `Reforming India's Public Examination System`,
+            `Loopholes, Evidence, Implementation Plan and Impact — for the High-Powered Task Force (HPTF) Consultation`,
+            `Prepared for: Submission to the HPTF on Public Examination Reforms (Chair: Nandan Nilekani)`,
+            `Consultation window: Open till 13 September 2026`,
+            `Submission channels: Public consultation portal · Toll-free 1800-180-4747 · WhatsApp "hptf" to +91 78270 42830 · Email ExamReformsTaskforce@dopt.gov.in`
+          ]
+        },        {
+          type: 'prose',
+          heading: `0. Context: Why This Matters Now`,
+          paras: [
+            `This consultation was triggered by the NEET-UG 2026 controversy — a leaked "guess paper" that overlapped with the actual question paper by 100+ questions, leading to cancellation of the 3 May 2026 exam. CBI investigation has since found the leak originated from inside the NTA itself: subject-matter experts engaged for question translation and back-translation allegedly memorised or noted down questions during the paper-setting process, aided by the fact that NTA was not actively monitoring its own headquarters CCTV footage.`,
+            `This is the second major crisis in three years — after the 2024 NEET-UG/UGC-NET leaks, which led to a seven-member High-Level Committee of Experts under Dr K. Radhakrishnan (submitted October 2024, 101 recommendations across 46 action points). A useful starting discipline for this submission is: don't just re-propose what Radhakrishnan already recommended — flag what was recommended but not implemented, and add what neither committee's mandate fully covered.`,
+            `The government has, in parallel, passed the Public Examinations (Prevention of Unfair Means) Amendment Act, 2026, sharply raising penalties (up to 10 years' imprisonment, fines up to ₹10 crore, asset seizure, fast-track courts). This addresses deterrence — it does little to close the operational and structural gaps that allow leaks to originate in the first place. That distinction is the spine of this brief. Where useful, this document also draws on how examination systems in South Korea, China, the United Kingdom, the United States, Singapore and Estonia handle equivalent problems, not as models to copy wholesale, but as evidence that specific, addressable design choices are available.`
+          ]
+        },        {
+          type: 'prose',
+          heading: `1. Conduct & Security of Examinations`,
+          paras: [
+            `<strong>1.1 Loopholes Identified & Evidence</strong>`,
+            `1.1 Insider risk is under-addressed. Security architecture is built around external threats (transport, centre-level leakage) but the 2026 leak came from vetted internal subject experts during paper-setting and translation.`,
+            `<em>Evidence: the CBI chargesheet names three subject experts engaged for question translation and back-translation of the botany, zoology sections who allegedly memorised or noted down questions in chits and cross-referenced them against NCERT textbook paragraphs after returning to their hotels each evening during the paper-setting window (broadly March–April 2026). The CBI has separately stated the malpractice went undetected for weeks because CCTV footage at NTA's own headquarters, where this work was carried out, was not being actively monitored in real time. The vulnerability therefore sat inside the trusted circle NTA itself assembled, not with an external hacker or a corrupt transporter.</em>`,
+            `1.2 SOP breaches at the last mile go undetected until after the fact. Procedures for transport, storage, handover and takeover of papers were not followed at a single centre in 2024.`,
+            `<em>Evidence: Bihar's Economic Offences Unit investigation into the 2024 Hazaribagh leak found that prescribed SOP for question-paper transport, storage, handover and takeover was not followed at Oasis School, where the school's own principal had additionally been appointed as the NTA's city coordinator and the vice-principal as centre coordinator, a dual-role conflict of interest that let papers be diverted before the exam.</em>`,
+            `1.3 No real-time, tamper-evident chain of custody. Detection of a compromised paper is forensic (after the fact), not preventive (during transit).`,
+            `<em>Evidence: in both 2024 and 2026, the point of compromise was established only after the fact, through police and CBI forensic reconstruction (burnt-paper recovery, hotel-room searches, digital trails), rather than through any live system that would have flagged the breach as it happened.</em>`,
+            `1.4 Organised "solver-gang" ecosystems. These coordinate impersonation, paper procurement and answer transmission at scale, sometimes involving school administrators acting as exam functionaries.`,
+            `<em>Evidence: the Bihar EOU/CBI investigation into the 2024 leak led to 13-plus arrests, including an interstate organised gang based out of Hazaribagh, Jharkhand, reported to have sold pre-obtained papers and solved answers to candidates for sums between roughly ₹30 and 50 lakh; the CBI registered six separate FIRs covering paper leakage, impersonation and cheating across Bihar, Gujarat, Rajasthan and Maharashtra.</em>`,
+            `1.5 Legal deterrence has outpaced structural prevention. The 2026 Amendment Act raises penalties and speeds up trials but does not itself mandate preventive controls.`,
+            `<em>Evidence: the Public Examinations (Prevention of Unfair Means) Amendment Act, 2026, passed by both Houses in July 2026, raises the minimum sentence to five years (extendable to ten), fines up to ₹50 lakh for individuals and ₹5 crore for service providers, and extends debarment periods, but none of these provisions mandate a specific insider-risk control, chain-of-custody standard or audit requirement; they operate entirely after a breach has already occurred.</em>`,
+            `<strong>1.2 Recommendations & How to Implement Them</strong>`,
+            `Redesign paper-setting and translation to assume insider risk. Constitute paper-setting and translation teams in physically sequestered, camera-monitored facilities with no personal electronic devices permitted, and a compartmentalised, need-to-know workflow so no single expert ever sees a complete paper — for example, splitting a paper into sections handled by non-overlapping teams whose outputs are merged only by a small, separately vetted compilation team at the final stage. CCTV of these facilities should be reviewed by an authority independent of NTA, not self-monitored.`,
+            `<em>International reference point: China's gaokao security model treats question papers as classified material — stored in steel-reinforced rooms openable only with three separately held keys, and moved only under video-surveilled escort. Suggested timeline: pilot in one exam cycle within 6 months; standard practice within 12 months.</em>`,
+            `Introduce a digital, tamper-evident chain of custody. Use time-stamped, geo-tagged, sealed containers logged at every handover point (press, strongroom, transport, centre, invigilator) into a centralised, independently auditable ledger.`,
+            `<em>International reference point: South Korea's CSAT locks down the physical logistics calendar itself — papers are printed and sealed roughly a week in advance under guarded conditions and moved only on a fixed, documented schedule. Suggested timeline: design in 3 months, pilot on select hubs in 9 months, national rollout in 18–24 months tied to the CBT transition in Section 4.</em>`,
+            `Conduct randomised, unannounced third-party audits. Empanel an independent audit function (a division of the statutory authority proposed in Section 3, or a rotating panel of accredited third parties) to run surprise SOP-compliance checks at a statistically representative sample of centres each cycle, and publish an annual summary of findings without naming centres under active investigation.`,
+            `<em>International reference point: international testing-security vendors such as PSI and Caveon run comparable "mystery shopper" audits and routine statistical monitoring for high-stakes certification exams globally.</em>`,
+            `Create an independent whistleblower channel. Set up a phone/portal/email channel run by a body other than NTA — housed within the statutory authority proposed in Section 3 — with legal whistleblower protections, so NTA staff, vendors or centre coordinators can report irregularities without fear of professional retaliation.`,
+            `Apply uniform, independently verified vendor and centre vetting. Define a published minimum checklist (background checks, conflict-of-interest declarations, a ban on dual-role appointments such as a school principal also serving as exam coordinator) that is independently verified, not self-certified by local coordinators.`
+          ]
+        },        {
+          type: 'prose',
+          heading: `2. Examination Design & Assessment Methodology`,
+          paras: [
+            `<strong>2.1 Loopholes Identified & Evidence</strong>`,
+            `2.1 Opaque, ad-hoc normalisation and compensation formulas. The methodology for compensating lost exam time was never pre-announced.`,
+            `<em>Evidence: in NEET-UG 2024, roughly 1,563 candidates received "grace marks" for lost exam time under a formula NTA had not pre-announced, producing 67 candidates with an identical top percentile score of 99.997129 and marks of 718/719 — outcomes that are statistically implausible under NEET's +4/–1 marking scheme. The Centre cancelled these compensatory scores only after Supreme Court intervention and public petitions, one of which cited feedback gathered from roughly 20,000 students.</em>`,
+            `2.2 No published, pre-committed disruption-response protocol. Each disruption is handled reactively and inconsistently.`,
+            `<em>Evidence: a wrong-question-paper incident at two Haryana centres (corrected 25 minutes into the exam) and the ad-hoc grace-marks response show each disruption is still handled as a one-off, negotiated after the fact under litigation pressure, rather than through a pre-published rule.</em>`,
+            `2.3 Single high-stakes, one-shot exam design. One leak invalidates an entire year's admissions cycle.`,
+            `<em>Evidence: the 3 May 2026 paper compromise required cancelling and re-conducting NEET-UG for over 2.27 million registered candidates nationwide — a single point of failure whose fallout, including the Union Education Minister's resignation, is disproportionate to what a multi-window design would have produced, since only the affected session would need to be voided.</em>`,
+            `2.4 Inconsistent testing mode. The transition to computer-based testing has lagged the 2024 recommendation.`,
+            `<em>Evidence: despite the Radhakrishnan Committee's 2024 recommendation for a hybrid CBT model, NEET-UG remained pen-and-paper through 2026; a transition to CBT was announced only after the 2026 controversy, roughly two years after the original recommendation.</em>`,
+            `2.5 Quality-control gaps in multilingual question papers. The translation workflow is where drafting oversight is thinnest.`,
+            `<em>Evidence: the 2026 leak itself involved the translation and back-translation process for regional-language papers, showing that the workflow needed to serve candidates in their own language is also where security and quality-control oversight is weakest.</em>`,
+            `<strong>2.2 Recommendations & How to Implement Them</strong>`,
+            `Publish the normalisation and compensation methodology in advance. Include the exact statistical method (for example, equipercentile or IRT-based equating) that will be applied for disruptions or multiple shifts, as part of the information bulletin released before every exam — not decided or disclosed only after results are contested.`,
+            `<em>International reference point: major standardised testing programmes such as the SAT and GRE publicly document their scaling and equating methodology in technical manuals in advance, rather than announcing it only when disputed.</em>`,
+            `Move toward multiple testing windows or item-bank-based adaptive testing. Extend the multi-session model NTA already runs for JEE Main to other high-volume exams such as NEET-UG, paired with a large, secure item bank and psychometric equating so scores are comparable across sessions.`,
+            `<em>International reference point: GRE and GMAT computer-adaptive testing rely on a large, calibrated item pool that lets candidates test on different days without any single sitting carrying outsized, irreversible weight.</em>`,
+            `Build independent statistical audits of result patterns into the standard post-exam process. Run routine post-exam statistical scans for response similarity, unusual score jumps, erasure patterns (for OMR exams) and centre-wise anomalies, generating a flagged-cases report for independent review rather than only investigating after media or court pressure.`,
+            `<em>International reference point: this practice, known in the global testing industry as "data forensics," is standard at bodies such as ETS in the United States and used by vendors like PSI and Caveon for high-stakes and certification exams.</em>`,
+            `Standardise a public, pre-defined disruption-response protocol. Define and legally embed (for example, as a schedule under the Public Examinations Act rules) a fixed response matrix specifying exactly how compensation is calculated for a given cause and duration of disruption, removing discretion and litigation risk from individual incidents.`
+          ]
+        },        {
+          type: 'prose',
+          heading: `3. Governance, Accountability & Institutional Arrangements`,
+          paras: [
+            `This is arguably the deepest structural loophole, and where the Task Force's remit on governance and institutional arrangements most needs to bite.`,
+            `<strong>3.1 Loopholes Identified & Evidence</strong>`,
+            `3.1 NTA's legal form is mismatched to its function. It is registered as a society, not a statutory body.`,
+            `<em>Evidence: NTA is registered as a Society under the Societies Registration Act, 1860, despite having conducted, per government data placed in Parliament, 240-plus examinations for more than 5.4 crore candidates since its 2017 establishment (NEET-UG 2024 alone involved over 24 lakh registered candidates across 4,750 centres in 571 cities, including 14 abroad). The United Doctors Front has separately petitioned the Supreme Court specifically asking for conversion to a statutory authority, because a society's governance and audit obligations are lighter than those of a body created by an Act of Parliament.</em>`,
+            `3.2 No standalone CAG performance audit. Only routine financial audit exists.`,
+            `<em>Evidence: independent commentary and reporting have repeatedly noted the absence of any publicly available, standalone Comptroller and Auditor General performance audit examining NTA's examination security, vendor management, data protocols or grievance mechanisms specifically.</em>`,
+            `3.3 Chronic, severe understaffing relative to scale. Sensitive functions rest on non-permanent staff.`,
+            `<em>Evidence: as of December 2024, NTA reportedly had only about 22 employees on deputation, 38 contract staff and 138 outsourced personnel running 18-plus national exams a year across roughly 5,500 centres in 550-plus cities — meaning translation, question processing and centre coordination are handled overwhelmingly by non-permanent staff.</em>`,
+            `3.4 Implementation gap on its own past reforms. Roughly half of newly created senior posts remain vacant.`,
+            `<em>Evidence: reporting on NTA in 2026 found that roughly half of the senior posts created specifically as part of post-2024 reform measures remained vacant — showing the gap is not a lack of recommendations but a lack of follow-through on ones already accepted.</em>`,
+            `3.5 Excessive dependence on outsourcing. Printing, IT and centre management are almost entirely contracted out.`,
+            `<em>Evidence: printing, IT infrastructure and physical centre management, including the use of private cyber cafes as exam venues, are almost entirely contracted out; NTA's roughly 25-person permanent core cannot meaningfully supervise vendors at the scale described above.</em>`,
+            `3.6 Weak, fragmented grievance redressal. Correction has followed litigation, not routine process.`,
+            `<em>Evidence: in both 2024 and 2026, meaningful correction (grace-marks cancellation, exam cancellation and re-conduct) followed Supreme Court intervention and public and political pressure rather than a routine internal grievance process; a parliamentary panel separately had to summon the NTA chief over the 2026 controversy.</em>`,
+            `3.7 Centralisation without matching capacity. No formal co-ownership structure exists with State governments.`,
+            `<em>Evidence: a single central agency runs nationwide exams spanning enormous linguistic, infrastructural and logistical diversity without any formalised co-ownership structure with State governments, who are closer to centre-level execution realities.</em>`,
+            `<strong>3.2 Recommendations & How to Implement Them</strong>`,
+            `Examine converting NTA from a society into a statutory authority. Draft and introduce a dedicated NTA Act establishing it as a statutory body with a governing board, a defined tenure and removal process for its head, and mandatory annual reporting to Parliament.`,
+            `<em>International reference point: the United Kingdom's Ofqual was created by the Apprenticeships, Skills, Children and Learning Act 2009 as a non-ministerial department independent of the Department for Education, with its Chief Regulator and Chair required to give evidence to Parliamentary Select Committees and its performance published annually. Suggested timeline: draft bill within 12 months, building on the legislative momentum already visible in the 2026 Amendment Act.</em>`,
+            `Institute a mandatory, periodic, standalone CAG performance audit. Request a dedicated performance audit (distinct from routine financial audit) of examination integrity, vendor contracts, cyber-security and grievance systems on a fixed two- to three-year cycle, tabled in Parliament with a public action-taken report due within six months.`,
+            `<em>International reference point: Ofqual publishes official statistics, delivery reports and a regulatory burden statement annually as a matter of routine transparency, not only in response to crises.</em>`,
+            `Right-size staffing and convert sensitive contractual roles to permanent posts. Commission an independent staffing-needs assessment against exam volume and centre count, then convert a defined share of currently outsourced or contractual roles touching sensitive functions into permanent positions, with budget explicitly appropriated rather than drawn from NTA's self-sustaining fee revenue, which currently disincentivises adding fixed costs.`,
+            `Build a statutory grievance redressal mechanism. Create a two-tier system: a time-bound (for example, 15–30 day) internal process with published service standards, and an independent appellate or ombudsman layer empowered to overturn decisions, so students are not limited to court petitions as their only real recourse.`,
+            `Publicly track implementation of accepted recommendations. Publish a live dashboard tracking every accepted HPTF and (retrospectively) Radhakrishnan Committee recommendation, its implementation owner, target date and current status, directly addressing the pattern in which 101 recommendations were made in 2024 but roughly half of associated senior posts remained unfilled two years later.`,
+            `Explore a structured State-government partnership model. Formalise a Centre-State coordination framework, such as a standing committee with State education department representation, for centre identification, local logistics and grievance escalation, so accountability for last-mile execution is shared rather than resting solely with a thinly staffed central agency.`
+          ]
+        },        {
+          type: 'prose',
+          heading: `4. Technology & Infrastructure`,
+          paras: [
+            `<strong>4.1 Loopholes Identified & Evidence</strong>`,
+            `4.1 Heavy reliance on private, non-standardised venues. CCTV, biometric and physical security are inconsistent and hard to audit centrally.`,
+            `<em>Evidence: the Radhakrishnan Committee itself flagged that many exams run out of private computer labs and schools lacking standardised security protocols, including non-functional CCTV — a finding echoed in the 2024 Hazaribagh case, where the compromised centre was a private school whose own staff held dual roles as NTA functionaries.</em>`,
+            `4.2 Slow rollout of government-controlled testing infrastructure. A committed target from December 2024 has not visibly been met.`,
+            `<em>Evidence: the Committee recommended building a network of 500 dedicated CBT centres within schools and institutes such as Kendriya Vidyalayas and Jawahar Navodaya Vidyalayas within one year of its December 2024 report; NEET-UG was still pen-and-paper through the May 2026 controversy, suggesting this target merits direct follow-up.</em>`,
+            `4.3 Digital vulnerability of question papers pre-exam. Darknet compromise is a distinct failure mode from physical-transport failures.`,
+            `<em>Evidence: the UGC-NET exam in June 2024 was cancelled after its paper was found to have been compromised and circulated via the darknet — a digital-custody failure separate from the physical-transport failures seen in the NEET-UG cases.</em>`,
+            `4.4 Uneven computer-based testing infrastructure. Rural and small-town connectivity and power gaps risk becoming a new equity problem.`,
+            `<em>Evidence: smaller towns and rural districts have historically reported server, connectivity and power-backup issues during CBT-mode exams such as JEE Main and CUET — a risk that scales up significantly if CBT becomes the default mode for a two-crore-candidate exam like NEET-UG without matching infrastructure investment.</em>`,
+            `4.5 No visible independent technical certification regime. Certification appears to rely on self-attestation.`,
+            `<em>Evidence: no publicly available register or certification standard confirms that a given centre's CCTV, biometric and network systems were verified functional before being approved to host an exam.</em>`,
+            `<strong>4.2 Recommendations & How to Implement Them</strong>`,
+            `Set time-bound targets for expanding government or institutionally-owned CBT centres. Commit to a public, dated target, such as completing the already-recommended 500-centre KV/JNV network within 18 months with quarterly public progress reporting, and extend beyond schools to under-used university and polytechnic computer labs, which are similarly government-owned and geographically distributed.`,
+            `Mandate independent, pre-exam technical certification of every centre. Create a certification checklist (CCTV functionality, biometric device calibration, network isolation from general internet, power backup test) signed off by an inspector independent of the centre operator, with results logged in a public register searchable by centre code.`,
+            `Treat digital custody of question content as a distinct cyber-security domain. Mandate encrypted, access-logged, multi-factor-authenticated storage and transmission for digital question content, isolated from general-purpose office networks, with full transmission logging so any access is independently auditable after the fact.`,
+            `<em>International reference point: China's layered-defence approach to physical paper custody (steel-reinforced, multi-key storage and escorted, video-surveilled transport) offers a useful template to adapt into the digital domain — split-key or multi-approval access plus full logging.</em>`,
+            `Pair CBT expansion with rural and underserved infrastructure investment. Phase the CBT transition gradually, starting with exams or sections carrying lower logistical risk and expanding stepwise, giving time to close connectivity and power-backup gaps in underserved districts before they become a reliability risk for a high-volume exam.`,
+            `<em>International reference point: Estonia phased its move to fully electronic state exams over several years — beginning with language exams in 2025 before extending to all state exams by 2027 — rather than a single national switch, and built its exams on a shared, interoperable government data-exchange layer (X-Road) rather than a bespoke standalone system.</em>`
+          ]
+        },        {
+          type: 'prose',
+          heading: `5. Accessibility & Inclusion`,
+          paras: [
+            `<strong>5.1 Loopholes Identified & Evidence</strong>`,
+            `5.1 The "own scribe" system has been a known malpractice vector. The transition away from it is still in progress.`,
+            `<em>Evidence: the Ministry of Social Justice and Empowerment's September 2025 guidelines explicitly cite the privately-arranged "own scribe" system as flagged for malpractice, mandating that UPSC, SSC and NTA build their own vetted scribe pools within two years and phase out the own-scribe model — meaning the interim period, through at least 2027, remains an acknowledged live gap.</em>`,
+            `5.2 Inconsistent assistive-technology availability. Availability is centre-dependent.`,
+            `<em>Evidence: while national guidelines specify screen readers such as JAWS and NVDA, Braille material and speech-to-text tools as available options, availability in practice depends heavily on the centre, particularly outside major cities, since most centres are third-party premises rather than purpose-built testing facilities.</em>`,
+            `5.3 Physical accessibility is not uniformly guaranteed. Guidelines had to explicitly mandate features that were not previously standard.`,
+            `<em>Evidence: the same September 2025 guidelines had to explicitly mandate ramps, lifts, audio announcements, wide corridors, ground-floor seating and quiet rooms for neurodiverse candidates, implying these were not previously standard across all centres.</em>`,
+            `5.4 Multilingual delivery and security trade-off. The same process serving linguistic inclusion is a security weak point.`,
+            `<em>Evidence: as detailed in Section 1, the 2026 leak's vector was precisely the translation and back-translation process that exists to serve candidates in regional languages — the same accessibility feature that most benefits candidates from non-Hindi and non-English-medium backgrounds.</em>`,
+            `5.5 Digital-divide risk in the CBT transition. Prior exposure to computer-based interfaces is uneven.`,
+            `<em>Evidence: first-generation and rural candidates have, in past CBT-mode exams, reported lower prior exposure to computer-based test interfaces compared with urban, coaching-supported peers, even when accessibility software itself functions correctly.</em>`,
+            `<strong>5.2 Recommendations & How to Implement Them</strong>`,
+            `Fast-track and independently monitor the transition to institution-vetted scribe pools. Bring forward the two-year Ministry deadline where feasible, and in the interim, apply enhanced verification, such as video-recorded scribe briefings, a mandatory scribe-candidate meeting two days before the exam (already used in JEE Main), and cross-checked qualification proof for any own-scribe cases still active.`,
+            `Set a minimum assistive-technology standard per centre, audited before empanelment. Fold assistive-technology checks, including working screen-reader installations, Braille material availability and tested speech-to-text tools, into the same independent technical-certification process proposed in Section 4, so accessibility is a hard precondition for centre approval rather than a separate, softer commitment.`,
+            `Redesign the paper-setting and translation security model with multilingual delivery in mind. Apply the compartmentalised, sequestered-team model from Section 1 specifically to translation workflows, using separate, simultaneously sequestered teams per language with cross-checking done by a small, independently vetted final-review team, so serving candidates in Marathi, Tamil, Bengali and other languages does not require widening the pool of people who see a complete paper.`,
+            `Provide CBT familiarisation resources for first-generation and rural candidates. Make free, offline-capable mock-CBT interfaces available through the same government school and KV/JNV network being expanded as testing centres, so familiarisation infrastructure and testing infrastructure build out together.`
+          ]
+        },        {
+          type: 'prose',
+          heading: `6. Student Well-Being`,
+          paras: [
+            `<strong>6.1 Loopholes Identified & Evidence</strong>`,
+            `6.1 Repeated disruptions impose unaddressed psychological strain. Scale and recurrence compound the impact.`,
+            `<em>Evidence: the 2026 NEET-UG cancellation and re-examination affected over 2.27 million registered candidates who had already completed months of preparation; the 2024 controversy similarly triggered nationwide student protests and contributed to the Union Education Minister's 2026 resignation — both signals of the scale of stress and public concern involved, beyond administrative inconvenience.</em>`,
+            `6.2 Slow, reactive crisis communication. A pattern of denial followed by reversal extends uncertainty.`,
+            `<em>Evidence: in both 2024 and 2026, NTA initially denied leak allegations that were later substantiated by investigation (CBI and Bihar EOU findings), extending uncertainty for candidates precisely when they most needed clear information.</em>`,
+            `6.3 No systemic, exam-linked well-being infrastructure. Support surfaces mainly as PwD accommodation, not general-population support.`,
+            `<em>Evidence: well-being provisions in current NTA practice surface mainly as accessibility and PwD accommodations, such as extra time and scribes, rather than as general-population support, such as a helpline or counselling referral pathway available to all candidates during high-anxiety periods like results or re-examination windows.</em>`,
+            `6.4 Grievance and appeal delays compound uncertainty. Resolution has depended on litigation timelines.`,
+            `<em>Evidence: the 2024 grace-marks dispute took from early June (results declaration) to mid-June (Supreme Court-driven cancellation) to resolve, roughly two weeks of uncertainty for over 1,500 directly affected candidates and, by extension, anxiety across the wider 24-lakh candidate pool watching the dispute unfold.</em>`,
+            `<strong>6.2 Recommendations & How to Implement Them</strong>`,
+            `Issue clear, time-bound communication during any exam disruption. Adopt a fixed public-communication service standard, such as initial acknowledgement within 24 hours, a fact-finding update within 72 hours and a resolution timeline within 7 days, for any reported irregularity, replacing the current pattern of denial followed by later reversal.`,
+            `Integrate helplines and counselling referral pathways into the standard exam calendar. Fund and publicise a dedicated exam-cycle helpline, distinct from general mental-health helplines, staffed during result declaration and re-examination windows, with a clear referral pathway to professional support built into the exam calendar as a standard line item, not an ad hoc crisis response.`,
+            `Set and honour firm timelines for results, grievance resolution and re-exam scheduling. Publish and legally commit to fixed timelines, aligned with the grievance mechanism proposed in Section 3, so resolution does not depend on the pace of litigation, unlike the 2024 grace-marks episode.`,
+            `Consider staggered or multi-session formats as a well-being measure, not only a security one. Beyond the psychometric benefits described in Section 2, multi-session formats reduce the "one shot, one day" pressure structure that concentrates an entire life trajectory into a single sitting.`,
+            `<em>International reference point: this single-day pressure structure is the most criticised aspect of South Korea's Suneung internationally, where a single Thursday in November is popularly described as determining a student's entire life trajectory, with flights grounded and businesses opening late to protect it — India has an opportunity to design away from that model even as it strengthens security. Singapore offers a design-side counterpoint: it replaced its finely differentiated PSLE T-score with broader Achievement Level bands in 2021 specifically to reduce the stress of narrow score differences, and separately removed mid-year examinations across primary and pre-university levels to free up learning time.</em>`
+          ]
+        },        {
+          type: 'prose',
+          heading: `7. How Success Can Be Measured`,
+          paras: [
+            `Each theme below should be tracked as a standing indicator, reported at fixed intervals (suggested: every exam cycle for conduct/design metrics, annually for governance/infrastructure metrics) on the public dashboard proposed in Section 3.`,
+            `<strong>Conduct & Security</strong>`,
+            `Number of confirmed paper leaks or centre-level compromises per year (baseline: at least one major confirmed incident in each of the last three years — 2024 UGC-NET, 2024 NEET-UG grace-marks episode, 2026 NEET-UG; target: zero, tracked year-on-year).`,
+            `Share of centres passing surprise SOP audits with no flagged violation (target: 100% within three years).`,
+            `Time-to-detection for any irregularity (target: real-time or same-day, down from the current weeks-to-months forensic-reconstruction timeline).`,
+            `<strong>Examination Design & Assessment</strong>`,
+            `Share of exams with a pre-published, publicly disclosed normalisation or compensation methodology (target: 100%).`,
+            `Number of high-volume exams operating on multi-session or item-bank formats (baseline: JEE Main only; target: extend to NEET-UG and other high-volume exams within defined cycles).`,
+            `<strong>Governance & Accountability</strong>`,
+            `Ratio of permanent to outsourced staff handling sensitive functions (baseline: roughly 1:8 as of December 2024 data; target set by the independent staffing-needs assessment).`,
+            `Time from CAG audit tabling to public action-taken report (target: within six months, every cycle).`,
+            `Share of HPTF and Radhakrishnan Committee action items marked complete on the public dashboard (target: track quarterly; close the roughly 50% senior-post vacancy gap within a defined period).`,
+            `<strong>Technology & Infrastructure</strong>`,
+            `Number of government or institutionally-owned CBT centres operational against the 500-centre KV/JNV target (target: track actual versus committed timeline).`,
+            `Share of centres holding valid, current independent technical certification (target: 100% before hosting any exam).`,
+            `<strong>Accessibility & Inclusion</strong>`,
+            `Share of PwD/PwBD candidates served by institution-vetted rather than self-arranged scribes (target: 100% ahead of the two-year Ministry deadline).`,
+            `Share of centres meeting the minimum assistive-technology and physical-accessibility checklist (target: 100%).`,
+            `<strong>Student Well-Being</strong>`,
+            `Median time from a reported irregularity to first public communication (target: within 24 hours).`,
+            `Median time from grievance filing to resolution (target: within the published service standard, for example 30 days).`
+          ]
+        },        {
+          type: 'prose',
+          heading: `8. Why These Suggestions Benefit the Nation`,
+          paras: [
+            `Protects the integrity of merit-based access to medical, engineering and public-service careers that directly shapes India's human capital pipeline. NTA-conducted exams have cumulatively touched over 5.4 crore candidates, meaning failures here do not stay contained to one cohort; they compound across the health, engineering and higher-education workforce for years.`,
+            `Preserves public trust in government institutions at a moment when repeated controversies have already produced a ministerial resignation, nationwide protests and Supreme Court intervention — trust that, once lost, is expensive to rebuild and spills over into perceptions of other public institutions.`,
+            `Reduces the large, largely invisible economic cost borne by families — coaching investment, repeat attempts and the opportunity cost of a lost year following a cancelled or compromised exam — at population scale, given NEET-UG alone involves over two million candidates per cycle.`,
+            `Strengthens India's standing in global education and mobility comparisons. A more secure, statutorily accountable examination system, on the Ofqual model, supports international recognition of Indian qualifications and outcomes, relevant as more Indian students pursue cross-border study and employment.`,
+            `Converts a reactive, crisis-driven reform cycle into a durable, self-correcting system. The current pattern runs from the Radhakrishnan Committee in 2024, through partial implementation, to the 2026 crisis and this HPTF. The public implementation-tracking dashboard and mandatory periodic audits proposed above are specifically designed to break this cycle, rather than requiring a third task force after the next crisis.`
+          ]
+        },        {
+          type: 'prose',
+          heading: `9. Start, Stop, Continue — An Overall Summary`,
+          paras: [
+            `<strong>Start</strong>`,
+            `Publishing the normalisation and compensation methodology in advance of every exam.`,
+            `Independent, pre-exam technical certification of every centre, logged in a public register.`,
+            `Routine, data-forensics-style statistical anomaly screening after every exam.`,
+            `A public dashboard tracking implementation of accepted reform recommendations.`,
+            `A whistleblower channel independent of NTA management.`,
+            `<strong>Stop</strong>`,
+            `Self-monitoring of NTA's own sensitive facilities, such as HQ CCTV, without independent review.`,
+            `Allowing dual-role conflicts of interest at centre level, such as a school principal also serving as exam coordinator.`,
+            `Deciding compensation or normalisation formulas after results are contested rather than before the exam.`,
+            `Treating the "own scribe" system as a default option ahead of the committed two-year transition.`,
+            `Relying on litigation and public pressure as the primary route to grievance resolution.`,
+            `<strong>Continue</strong>`,
+            `The legislative strengthening already underway through the Public Examinations (Prevention of Unfair Means) Amendment Act, 2026 — paired with the structural and preventive measures above, rather than treated as sufficient on its own.`,
+            `Expanding government or institutionally-owned CBT infrastructure through the committed KV/JNV network — on a public, tracked timeline.`,
+            `The PwD/PwBD accessibility guideline strengthening already begun in September 2025 — accelerated where feasible.`,
+            `Multi-session exam formats already used for JEE Main — extended to other high-volume exams.`,
+            `This document synthesises publicly reported information on the 2024 and 2026 NEET-UG/UGC-NET controversies, the Radhakrishnan Committee report (October 2024), the Public Examinations (Prevention of Unfair Means) Amendment Act 2026, recent PwD/accessibility guidelines, and publicly available accounts of examination-security and assessment practice in South Korea, China, the United Kingdom, the United States, Singapore and Estonia, current as of late August 2026. It is intended as a working document for drafting an HPTF submission, not a formal government or legal record.`
+          ]
+        },        {
+          type: 'source',
+          text: `HPTF Exam Reforms Detailed Brief — submitted to the High-Powered Task Force on Public Examination Reforms (Chair: Nandan Nilekani), 13 September 2026`
+        },        {
+          type: 'gap',
+          tag: `pending`,
+          text: `HPTF recommendations are pending. Track outcomes against the success metrics proposed in Section 7 of this submission. The consultation closed on 13 September 2026; the Task Force's report to the Government is expected to follow.`
+        }
+      ]
     }
   ]
 };
