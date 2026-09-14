@@ -1,31 +1,36 @@
 /* ---------------------------------------------------------------
-   SECTION REGISTRY
+   SECTION REGISTRY — v12.0
 
-   Left menu: World Forums, Synthesis, Events, Supply Chains,
-   Corrections.
+   Two pillars: International Geo Politics and Internal Dynamics.
+   Corrections sits standalone outside both.
 
-   World Forums is a wrapper importing security, economic,
-   universal, regional and lenses as tabs with subtabs.
-
-   The individual data files (security.js, economic.js etc.)
-   still exist and are imported through world-forums.js.
+   The `groups` array drives the collapsible sidebar.
+   The `standalone` array renders below the groups.
    --------------------------------------------------------------- */
 
 import { worldForums } from './world-forums.js';
 import { synthesis } from './synthesis.js';
 import { events } from './events.js';
 import { supplyChains } from './supply-chains.js';
+import { ideology } from './ideology.js';
 import { corrections } from './corrections.js';
 
-export const sections = [
-  worldForums,
-  synthesis,
-  events,
-  supplyChains,
-  corrections
+export const groups = [
+  {
+    id: 'international',
+    title: 'International Geo Politics',
+    sections: [worldForums, synthesis, events, supplyChains]
+  },
+  {
+    id: 'internal',
+    title: 'Internal Dynamics',
+    sections: [ideology]
+  }
 ];
 
+export const standalone = [corrections];
+
 export const meta = {
-  version: '11.0',
-  updated: '13 Sep 2026'
+  version: '12.0',
+  updated: '14 Sep 2026'
 };
