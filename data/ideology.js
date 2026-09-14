@@ -1,10 +1,3 @@
-/* ---------------------------------------------------------------
-   SECTION: Ideology & Electoral
-
-   Chapters 1 and 2 of From Jana Sangh to Viksit Bharat.
-   Content presented as written. No summarisation.
-   --------------------------------------------------------------- */
-
 export const ideology = {
   id: `ideology`,
   title: `Ideology & Electoral`,
@@ -26,14 +19,7 @@ export const ideology = {
             `After Hedgewar's death in 1940, the organisation's second Sarsanghchalak, Madhav Sadashiv Golwalkar (known as 'Guruji'), led the RSS for 33 years and expanded it significantly. Golwalkar consolidated the RSS as a purely cultural movement — explicitly avoiding party politics — but the 1948 crisis changed everything.`,
             `The 1948 Crisis and the Turn to Politics`,
             `On 30 January 1948, Mahatma Gandhi was assassinated by Nathuram Godse, an RSS member. The Congress government of Jawaharlal Nehru banned the RSS. Though the ban was lifted in 1949 after the RSS adopted a constitution swearing loyalty to the Indian Constitution, the crisis had revealed a fundamental vulnerability: without a voice in Parliament, the RSS and its ideology could be outlawed at any moment. Golwalkar, under pressure from his own cadres who had suffered arrest and prosecution, agreed to support the formation of a political organisation.`,
-            `| 1925 | RSS founded by K.B. Hedgewar in Nagpur. Shakha model begins. |`,
-            `| --- | --- |`,
-            `| 1940 | Hedgewar dies. Golwalkar (Guruji) becomes Sarsanghchalak for 33 years. |`,
-            `| 1948 | Gandhi assassination by RSS member Godse. RSS banned. Revoked 1949. |`,
-            `| 1951 | Golwalkar backs formation of Bharatiya Jana Sangh under Mukherjee. |`,
-            `| 1973 | Deoras succeeds Golwalkar. RSS pivots more actively toward politics. |`,
-            `| 1975 | Emergency. RSS leaders jailed. Forged unity with opposition. |`,
-            `| 1980 | Ex-Jana Sangh leaders form BJP. RSS provides cadre and ideological spine. |`,
+            `<table><thead><tr><th>1925</th><th>RSS founded by K.B. Hedgewar in Nagpur. Shakha model begins.</th></tr></thead><tbody><tr><td>1940</td><td>Hedgewar dies. Golwalkar (Guruji) becomes Sarsanghchalak for 33 years.</td></tr><tr><td>1948</td><td>Gandhi assassination by RSS member Godse. RSS banned. Revoked 1949.</td></tr><tr><td>1951</td><td>Golwalkar backs formation of Bharatiya Jana Sangh under Mukherjee.</td></tr><tr><td>1973</td><td>Deoras succeeds Golwalkar. RSS pivots more actively toward politics.</td></tr><tr><td>1975</td><td>Emergency. RSS leaders jailed. Forged unity with opposition.</td></tr><tr><td>1980</td><td>Ex-Jana Sangh leaders form BJP. RSS provides cadre and ideological spine.</td></tr></tbody></table>`,
             `Bharatiya Jana Sangh — The Political Arm (1951)`,
             `Shyama Prasad Mukherjee was, by any measure, one of the most formidable minds in post-independence India. Born on 6 July 1901 into a distinguished Bengal family — his father was Vice-Chancellor of Calcutta University and a judge — he became the youngest Vice-Chancellor of Calcutta University himself at 33. He was a barrister, an educationist, and a parliamentarian of the first order. Nehru, despite being his ideological opposite, respected him enough to bring him into independent India's first cabinet as Industry & Supply Minister.`,
             `The break came over the Liaquat-Nehru Pact of 1950, which sought to protect minorities in both India and Pakistan. Mukherjee considered it an appeasement of Pakistan that left Hindus in East Bengal unprotected. He resigned from the cabinet on 6 April 1950. Freed from government, he began building what would become the first organised political opposition to Nehruvian Congress.`,
@@ -209,11 +195,10 @@ export const ideology = {
         },
         {
           type: 'source',
-          text: `From Jana Sangh to Viksit Bharat: From Nagpur 1925 to Rotterdam 2030, Chapter 1 — Origins & Ideology`
+          text: `From Jana Sangh to Viksit Bharat, Chapter 1 — Origins & Ideology`
         }
       ]
-    },
-    {
+    },    {
       id: `electoral`,
       title: `Electoral Journey`,
       blocks: [
@@ -232,14 +217,7 @@ export const ideology = {
             `The transformation began with the appointment of L.K. Advani as party president in 1986. Advani — a more ideologically assertive leader than the conciliatory Vajpayee — recognised that the Gandhian Socialism positioning had failed and steered the party back toward assertive Hindu nationalism. The Bofors scandal (1987) which destroyed Rajiv Gandhi's 'Mr. Clean' image, the Shah Bano case which exposed Congress vote-bank politics on Muslim personal law, and the opening of the Babri Masjid lock in Ayodhya all created a political vacuum that BJP moved swiftly to fill.`,
             `The pivotal moment came with the Ram Rath Yatra of 1990 — Advani's cross-country political pilgrimage from Somnath to Ayodhya demanding construction of a Ram Temple. The Yatra generated extraordinary public mobilisation. In the 1989 elections BJP had already surged to 86 seats. By 1991, it won 120 seats. By 1996, it had become the single largest party in the Lok Sabha with 161 seats.`,
             `The demolition of the Babri Masjid by RSS-affiliated mobs on 6 December 1992 caused a national and international backlash, triggered communal riots, and led to BJP governments being dismissed in four states. The party was temporarily set back, but the episode had permanently cemented a new political cleavage in India around Hindu identity.`,
-            `| 1984 | BJP wins 2 seats. Near-extinction in first election. |`,
-            `| --- | --- |`,
-            `| 1986 | Advani becomes party president. Ideological reset begins. |`,
-            `| 1989 | 86 seats. Bofors, Shah Bano help. BJP–Shiv Sena alliance formed. |`,
-            `| 1990 | Ram Rath Yatra. Mass Hindu mobilisation across Hindi belt. |`,
-            `| 1991 | 120 seats. BJP is now major national force. |`,
-            `| 1992 | Babri Masjid demolished. National backlash, 4 state govts dismissed. |`,
-            `| 1996 | 161 seats. BJP forms short-lived minority government (13 days) under Vajpayee. |`
+            `<table><thead><tr><th>1984</th><th>BJP wins 2 seats. Near-extinction in first election.</th></tr></thead><tbody><tr><td>1986</td><td>Advani becomes party president. Ideological reset begins.</td></tr><tr><td>1989</td><td>86 seats. Bofors, Shah Bano help. BJP–Shiv Sena alliance formed.</td></tr><tr><td>1990</td><td>Ram Rath Yatra. Mass Hindu mobilisation across Hindi belt.</td></tr><tr><td>1991</td><td>120 seats. BJP is now major national force.</td></tr><tr><td>1992</td><td>Babri Masjid demolished. National backlash, 4 state govts dismissed.</td></tr><tr><td>1996</td><td>161 seats. BJP forms short-lived minority government (13 days) under Vajpayee.</td></tr></tbody></table>`
           ]
         },
         {
@@ -280,18 +258,7 @@ export const ideology = {
           paras: [
             `If 2014 was a mandate for change, 2019 was a mandate for continuity — and expansion. BJP won 303 seats, more than in 2014, running on five years of welfare delivery, the Balakot airstrike narrative (February 2019), and Modi's personal popularity. The NDA crossed 350 seats. Opposition unity had failed comprehensively.`,
             `The 2024 election told a more nuanced story. BJP won 240 seats — short of the 272 majority mark — requiring coalition partners to form government. The NDA alliance held at approximately 293 seats. Several factors contributed to the reduced margin: stronger Opposition alliance, rural distress in some states, and the INDIA bloc's focused seat-sharing. Yet the NDA's third consecutive government under Modi — now his third term — remains historically significant. No leader since Jawaharlal Nehru had served three consecutive terms as Prime Minister.`,
-            `| 1984 | 2 seats — BJP's first general election |`,
-            `| --- | --- |`,
-            `| 1989 | 86 seats — First major surge |`,
-            `| 1991 | 120 seats — Second largest party |`,
-            `| 1996 | 161 seats — Largest party, short-lived govt (13 days) |`,
-            `| 1998 | 182 seats — NDA forms stable coalition govt |`,
-            `| 1999 | 182 seats — Full term completed, Kargil victory |`,
-            `| 2004 | 138 seats — Shock defeat to UPA |`,
-            `| 2009 | 116 seats — Second term in opposition |`,
-            `| 2014 | 282 seats — Outright majority, Modi's first term |`,
-            `| 2019 | 303 seats — Enhanced majority, Modi's second term |`,
-            `| 2024 | 240 seats — NDA coalition govt, Modi's third term |`
+            `<table><thead><tr><th>1984</th><th>2 seats — BJP's first general election</th></tr></thead><tbody><tr><td>1989</td><td>86 seats — First major surge</td></tr><tr><td>1991</td><td>120 seats — Second largest party</td></tr><tr><td>1996</td><td>161 seats — Largest party, short-lived govt (13 days)</td></tr><tr><td>1998</td><td>182 seats — NDA forms stable coalition govt</td></tr><tr><td>1999</td><td>182 seats — Full term completed, Kargil victory</td></tr><tr><td>2004</td><td>138 seats — Shock defeat to UPA</td></tr><tr><td>2009</td><td>116 seats — Second term in opposition</td></tr><tr><td>2014</td><td>282 seats — Outright majority, Modi's first term</td></tr><tr><td>2019</td><td>303 seats — Enhanced majority, Modi's second term</td></tr><tr><td>2024</td><td>240 seats — NDA coalition govt, Modi's third term</td></tr></tbody></table>`
           ]
         },
         {
@@ -305,7 +272,7 @@ export const ideology = {
         },
         {
           type: 'source',
-          text: `From Jana Sangh to Viksit Bharat: From Nagpur 1925 to Rotterdam 2030, Chapter 2 — Electoral Journey`
+          text: `From Jana Sangh to Viksit Bharat, Chapter 2 — Electoral Journey`
         }
       ]
     }
